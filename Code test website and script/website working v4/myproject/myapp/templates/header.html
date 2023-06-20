@@ -1,0 +1,44 @@
+<div class="header">
+    {% if user.is_authenticated %}
+      <button onclick="window.location.href='{% url 'logged_home' %}'">PCB Utilities</button>
+      <button onclick="window.location.href='{% url 'gerber_upload' %}'">Gerber Panelizer</button>
+      <button onclick="window.location.href='{% url 'user_files' %}'">My Files</button>
+      <button onclick="window.location.href='{% url 'cas_ng_logout' %}'">Logout</button>
+    {% else %}
+      <button onclick="window.location.href='{% url 'cas_ng_login' %}'">Login</button>
+    {% endif %}
+  </div>
+  
+  <style>
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.header button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 10px; /* Optional: Add some space between buttons */
+}
+
+.header button:hover {
+  background-color: #45a049;
+}
+
+.header button:focus {
+  outline: none;
+}
+
+  </style>
