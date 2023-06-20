@@ -23,6 +23,8 @@ from django.http import JsonResponse
 from django.views.decorators.http import require_POST
 from django.shortcuts import get_object_or_404
 
+from django.http import FileResponse, Http404
+
 
 def handle_uploaded_file(file, name):
     # Get the original file extension
@@ -311,50 +313,40 @@ def delete_file(request):
     return JsonResponse({'success': False, 'message': 'Invalid request.'})
 
 
+
+
 def view_file(request, file_id, file_type):
-    result_file = get_object_or_404(ResultFile, id=file_id)
-    
-    if file_type == 'zippedGerbers':
-        file_path = result_file.zippedGerbers.path
-        if file_path.endswith('.zip'):
-            zip_file = zipfile.ZipFile(file_path)
-            folder_name = zip_file.namelist()[0]
+    try:
+        # Retrieve the file based on file_id and file_type
+        if file_type == 'zippedGerbers':
+            file_obj = ResultFile.objects.get(id=file_id).zippedGerbers
+        elif file_type == 'zippedDrills':
+            file_obj = ResultFile.objects.get(id=file_id).zippedDrills
+        elif file_type == 'DRCresult':
+            file_obj = ResultFile.objects.get(id=file_id).DRCresult
+        elif file_type == 'ERCresult':
+            file_obj = ResultFile.objects.get(id=file_id).ERCresult
         else:
-            # Not a ZIP file, handle it as a regular text file
-            folder_name = ''
-    elif file_type == 'zippedDrills':
-        file_path = result_file.zippedDrills.path
-        if file_path.endswith('.zip'):
-            zip_file = zipfile.ZipFile(file_path)
-            folder_name = zip_file.namelist()[0]
-        else:
-            # Not a ZIP file, handle it as a regular text file
-            folder_name = ''
-    elif file_type == 'DRCresult':
-        file_path = result_file.DRCresult.path
-        if file_path.endswith('.zip'):
-            zip_file = zipfile.ZipFile(file_path)
-            folder_name = zip_file.namelist()[0]
-        else:
-            # Not a ZIP file, handle it as a regular text file
-            folder_name = ''
-    elif file_type == 'ERCresult':
-        file_path = result_file.ERCresult.path
-        if file_path.endswith('.zip'):
-            zip_file = zipfile.ZipFile(file_path)
-            folder_name = zip_file.namelist()[0]
-        else:
-            # Not a ZIP file, handle it as a regular text file
-            folder_name = ''
-    else:
-        # Invalid file_type
-        return HttpResponseNotFound()
-    
-    context = {
-        'folder_name': folder_name,
-    }
-    
-    return render(request, 'view_file.html', context)
+            raise Http404
+
+        # Check if the file exists
+        if not file_obj:
+            raise Http404
+
+        # Open the file as a binary file
+        file = open(file_obj.path, 'rb')
+
+        # Create a FileResponse object with the file
+        response = FileResponse(file, content_type='application/zip')
+
+        # Set the appropriate Content-Disposition header to trigger a download
+        response['Content-Disposition'] = f'attachment; filename="{file_obj.name}"'
+
+        return response
+
+    except (ResultFile.DoesNotExist, FileNotFoundError):
+        raise Http404
+
 
 
 
