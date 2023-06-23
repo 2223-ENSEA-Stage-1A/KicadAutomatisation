@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Panel File Explorer</title>
+</head>
+<body>
+    <h1>Panel File Explorer</h1>
+
+    <p>Selected Files ids:</p>
+    <ul>
+        {% for file_id in selected_files %}
+            <li>{{ file_id }}</li>
+        {% empty %}
+            <li>No files selected.</li>
+        {% endfor %}
+
+        {% for filename in filenames %}
+            <li>{{ filename }}</li>
+        {% empty %}
+            <li>No files selected.</li>
+        {% endfor %}
+    </ul>
+
+    <p>Other Parameters:</p>
+    <p>Max Height: {{ maxHeight }}</p>
+    <p>Max Width: {{ maxWidth }}</p>
+    <p>myPanel id: {{ myPanel }}</p>
+
+    <!-- Download button -->
+    <form action="{% url 'download_file' %}" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="myPanel" value="{{ myPanel }}" />
+        <button type="submit">Download File</button>
+    </form>
+
+    <!-- Additional HTML and CSS for the file explorer display -->
+</body>
+</html>

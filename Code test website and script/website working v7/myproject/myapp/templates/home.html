@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/homepage.css' %}">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the ENSEA PCB Utilities</h1>
+    <p>You will be able to submit your pcb to manufacturing.</p>
+    <a href="{% url 'login' %}" class="button">Login</a>
+  </div>
+</body>
+</html>
+
