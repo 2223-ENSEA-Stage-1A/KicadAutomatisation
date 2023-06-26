@@ -1,0 +1,38 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Ticket</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/ticket_create.css' %}">
+</head>
+<body>
+    {% include 'header.html' %}
+    <div class="ticket-create">
+        <h1>Create Ticket</h1>
+        <form method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="{{ form.title.id_for_label }}">Title:</label>
+                {{ form.title }}
+            </div>
+            <div class="form-group">
+                <label for="{{ form.description.id_for_label }}">Description:</label>
+                {{ form.description }}
+            </div>
+            <input type="hidden" name="result_file" value="{{ result_file.id }}">
+            <div class="form-group">
+                <label for="{{ form.result_file.id_for_label }}">Result File:</label>
+                {{ form.result_file }}
+            </div>
+            <div class="form-group co-users">
+                <label for="{{ form.co_users.id_for_label }}">Co-users:</label>
+                {{ form.co_users }}
+            </div>
+            <div class="form-group submit-button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket List</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/ticket.css' %}">
+</head>
+<body>
+    {% include 'header.html' %}
+    
+    <h1>Ticket List</h1>
+    
+    <ul>
+        {% if user.is_staff%}
+
+        <form method="POST">
+            {% csrf_token %}
+            <label for="view_all_project">View All Tickets</label>
+            <input type="checkbox" id="view_all_project" name="view_all_project" {% if view_all_project %}checked{% endif %}>
+            <button type="submit">Apply</button>
+          </form>
+
+        {% endif %}
+
+        {% for ticket in tickets %}
+        <li>
+            <strong>Title:</strong> {{ ticket.title }} - {{ ticket.created_at }}
+            {% if ticket.resolved %}
+            (Resolved)
+            {% else %}
+            (Unresolved)
+            {% endif %}
+            - <a href="{% url 'ticket_detail' ticket.id %}">View</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'ticket_create' %}" class="create-ticket-button">Create New Ticket</a>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{% load static %}
+
+{% include 'header.html' %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gerber Upload</title>
+  <link rel="stylesheet" href="{% static 'css/gerber_upload.css' %}">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerber File Upload</h1>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.gerber_files.label_tag }}
+      {{ form.gerber_files }}
+      <button type="submit">Upload</button>
+    </form>
+  </div>
+</body>
+</html>
