@@ -1,0 +1,21 @@
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/header.css' %}">
+
+<div class="header">
+  {% if user.is_authenticated %}
+    <button onclick="window.location.href='{% url 'logged_home' %}'">PCB Utilities</button>
+    {% if user.is_staff %}
+    <button onclick="window.location.href='{% url 'panelizer_kicad' %}'">Kicad Panelizer</button>
+    {% endif %}
+    <button onclick="window.location.href='{% url 'user_panels' %}'">My Panels</button>
+    <button onclick="window.location.href='{% url 'user_files' %}'">My Files</button>
+    <button onclick="window.location.href='{% url 'ticket_list' %}'">Tickets</button>
+    <button onclick="window.location.href='{% url 'cas_ng_logout' %}'">Logout</button>
+  {% else %}
+    <button onclick="window.location.href='{% url 'cas_ng_login' %}'">Login</button>
+  {% endif %}
+</div>
+
+

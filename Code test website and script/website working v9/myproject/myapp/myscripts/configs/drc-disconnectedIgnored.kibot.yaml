@@ -1,0 +1,9 @@
+kibot:
+  version: 1
+
+preflight:
+
+  run_drc: True # Run the DRC 
+  ignore_unconnected: True # Ignore the unconnected cables (might be a bad idea)
+
+

@@ -1,0 +1,44 @@
+** Drc report for /home/heimdall/projet/website/myproject/ProjectToProcess/jerefleu12 2023-06-27 07:54:24.051130/Plug_NRF24L01_Exclude_V5/Plug_NRF24L01_Exclude.kicad_pcb **
+** Created on 2023-06-27 09:54:33 **
+
+** Found 10 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(122.9375 mm, 120.5375 mm): Pad 2 [+5V] of U2 on B.Cu
+    @(123.5875 mm, 120.5375 mm): Pad 3 [+3.3V] of U2 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(123.5875 mm, 120.5375 mm): Pad 3 [+3.3V] of U2 on B.Cu
+    @(124.2375 mm, 120.5375 mm): Pad 4 [Net-(U2-BP)] of U2 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(96.0000 mm, 96.0000 mm): Zone [GND] on F.Cu
+    @(104.9313 mm, 117.2000 mm): Pad 2 [GND] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(96.0000 mm, 96.0000 mm): Zone [GND] on F.Cu
+    @(115.4200 mm, 100.1575 mm): Pad 2 [GND] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(119.7500 mm, 126.5300 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(123.1500 mm, 119.8000 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(105.9500 mm, 126.5300 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(112.8500 mm, 126.5300 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(116.3000 mm, 126.5300 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(109.4000 mm, 126.5300 mm): Reference 'R11'
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

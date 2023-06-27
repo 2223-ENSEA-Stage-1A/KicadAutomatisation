@@ -1,0 +1,22 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Answer Ticket</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/ticket.css' %}">
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1>Answer Ticket</h1>
+    <p><strong>Title:</strong> {{ ticket.title }}</p>
+    <p><strong>Description:</strong> {{ ticket.description }}</p>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
