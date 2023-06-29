@@ -1,0 +1,41 @@
+/* CSS for the content section */
+.content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cas-login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cas-login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling or footer content CSS goes here */

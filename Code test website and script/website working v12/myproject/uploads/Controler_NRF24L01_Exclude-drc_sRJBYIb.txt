@@ -1,0 +1,198 @@
+** Drc report for /home/heimdall/projet/website/myproject/ProjectToProcess/jerefleu12 2023-06-29 11:29:44.118121/Controler_NRF24L01_Exclude_V1/Controler_NRF24L01_Exclude.kicad_pcb **
+** Created on 2023-06-29 13:29:52 **
+
+** Found 45 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(173.3500 mm, 111.4250 mm): Track [POWER_CHECK] on F.Cu, length 0.0707 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(171.4000 mm, 111.4250 mm): Track [POWER_CHECK] on F.Cu, length 0.2125 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(144.3160 mm, 62.4840 mm): Track [Glob_Alim] on B.Cu, length 0.5996 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(152.1460 mm, 80.0100 mm): Track [Net-(D6-A)] on F.Cu, length 0.2540 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(139.2670 mm, 101.0920 mm): Track [A_Button] on F.Cu, length 0.1301 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(150.3680 mm, 98.8060 mm): Track [B_Button] on F.Cu, length 0.1864 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(140.5127 mm, 90.2873 mm): Track [Y_Button] on B.Cu, length 0.1235 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(137.1600 mm, 94.6650 mm): Track [GPIO_EX_CLK] on F.Cu, length 0.2263 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0480 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(136.3980 mm, 82.2960 mm): Via [GND] on F.Cu - B.Cu
+    @(135.7500 mm, 82.0000 mm): Pad 16 [unconnected-(U5-P4-Pad16)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0520 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(136.3980 mm, 82.2960 mm): Via [GND] on F.Cu - B.Cu
+    @(137.0500 mm, 82.0000 mm): Pad 14 [unconnected-(U5-P3-Pad14)] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0375 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(137.9750 mm, 63.4250 mm): Track [CSN_nRF24] on B.Cu, length 5.5900 mm
+    @(138.4000 mm, 62.7250 mm): Pad 2 [GND] of C1 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0793 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(137.7150 mm, 63.6850 mm): Track [CSN_nRF24] on B.Cu, length 0.3677 mm
+    @(138.4000 mm, 62.7250 mm): Pad 2 [GND] of C1 on B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2480 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(135.7500 mm, 82.0000 mm): Pad 16 [unconnected-(U5-P4-Pad16)] of U5 on F.Cu
+    @(136.3980 mm, 82.2960 mm): Via [GND] on F.Cu - B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(78.0000 mm, 59.8000 mm): Line on Edge.Cuts
+    @(118.5000 mm, 59.5700 mm): Reference 'D6'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(78.0000 mm, 59.8000 mm): Line on Edge.Cuts
+    @(108.0000 mm, 59.5700 mm): Reference 'D3'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(78.0000 mm, 59.8000 mm): Line on Edge.Cuts
+    @(143.4700 mm, 59.7300 mm): Reference 'U2'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(78.0000 mm, 59.8000 mm): Line on Edge.Cuts
+    @(111.5000 mm, 59.5700 mm): Reference 'D4'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(78.0000 mm, 59.8000 mm): Line on Edge.Cuts
+    @(115.0000 mm, 59.5700 mm): Reference 'D5'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(78.0000 mm, 59.8000 mm): Line on Edge.Cuts
+    @(172.5000 mm, 60.0000 mm): Reference 'SW7'
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(101.0000 mm, 69.5000 mm): Footprint R2
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(155.1750 mm, 111.4800 mm): Pad 11 [GND] of J2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(142.2000 mm, 62.0600 mm): PTH pad 1 [GND] of U2
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(139.7000 mm, 94.3345 mm): Pad 2 [GND] of C3 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(138.4000 mm, 62.7250 mm): Pad 2 [GND] of C1 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(117.6000 mm, 64.3375 mm): Pad 2 [GND] of R22 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(110.5250 mm, 64.4125 mm): Pad 2 [GND] of R20 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(133.1500 mm, 87.8000 mm): Pad 1 [GND] of U5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(136.4000 mm, 87.8000 mm): Pad 6 [GND] of U5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(137.0500 mm, 87.8000 mm): Pad 7 [GND] of U5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(184.4040 mm, 64.2620 mm): PTH pad 2 [GND] of J4
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(78.0000 mm, 59.8000 mm): Zone [GND] on F.Cu and 1 more
+    @(130.3020 mm, 103.5315 mm): Pad 2 [GND] of C5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(148.4430 mm, 67.1470 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(172.8300 mm, 112.3375 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(141.1300 mm, 93.4720 mm): Reference 'C3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(121.8500 mm, 79.2700 mm): Reference 'R1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(166.0950 mm, 89.8400 mm): Reference 'C4'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(151.9340 mm, 73.9140 mm): Reference 'U4'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(175.2600 mm, 74.7700 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(140.7140 mm, 93.3257 mm): Line on F.Silkscreen
+    @(141.1300 mm, 93.4720 mm): Reference 'C3'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(175.2600 mm, 74.7700 mm): Reference 'D2'
+    @(175.0053 mm, 75.1985 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(175.2600 mm, 74.7700 mm): Reference 'D2'
+    @(175.0053 mm, 74.1535 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(172.8300 mm, 112.3375 mm): Reference 'R10'
+    @(172.8900 mm, 112.1912 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(185.0000 mm, 67.5700 mm): Reference 'R13'
+    @(184.4040 mm, 67.8120 mm): Reference 'J4'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(175.2600 mm, 73.2460 mm): Reference 'R3'
+    @(175.0000 mm, 73.6100 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(175.2600 mm, 73.2460 mm): Reference 'R3'
+    @(175.0000 mm, 73.6100 mm): Line on F.Silkscreen
+
+** Found 6 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(138.3500 mm, 87.8000 mm): Pad 9 [GND] of U5 on F.Cu
+    @(137.0500 mm, 87.8000 mm): Pad 7 [GND] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(133.1500 mm, 87.8000 mm): Pad 1 [GND] of U5 on F.Cu
+    @(136.4000 mm, 87.8000 mm): Pad 6 [GND] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(129.2875 mm, 54.4000 mm): Pad 1 [Glob_Alim] of R5 on F.Cu
+    @(123.5750 mm, 54.4000 mm): Pad 1 [Glob_Alim] of R6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(129.2875 mm, 54.4000 mm): Pad 1 [Glob_Alim] of R5 on F.Cu
+    @(128.7780 mm, 70.3580 mm): Track [Glob_Alim] on B.Cu, length 13.3968 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(131.1125 mm, 54.4000 mm): Pad 2 [GPIO_EX_CLK] of R5 on F.Cu
+    @(133.8000 mm, 87.8000 mm): Track [GPIO_EX_CLK] on F.Cu, length 0.8245 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(135.1000 mm, 87.8000 mm): Track [GPIO_EX_SERIAL_DATA] on F.Cu, length 2.7000 mm
+    @(125.4000 mm, 54.4000 mm): Pad 2 [GPIO_EX_SERIAL_DATA] of R6 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,13 @@
+** Drc report for /home/heimdall/projet/website/myproject/ProjectToProcess/jerefleu12 2023-06-29 07:54:26.060759/Controler_NRF24L01_Exclude_v3/Controler_NRF24L01_Exclude_v3.kicad_pcb **
+** Created on 2023-06-29 09:54:29 **
+
+** Found 1 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(162.9000 mm, 86.0200 mm): Track [Net-(D7-A)] on B.Cu, length 0.2543 mm
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
