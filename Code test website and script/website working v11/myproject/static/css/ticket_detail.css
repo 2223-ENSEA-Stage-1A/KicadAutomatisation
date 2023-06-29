@@ -1,0 +1,156 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set background color and font styles */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center everything */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Description */
+  p {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Download Button */
+  .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .download-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Conversation */
+  h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul.result-file-list li {
+    margin-bottom: 10px;
+  }
+  
+  ul.conversation-list li {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  li {
+    margin-bottom: 10px;
+    margin: 10px
+  }
+  
+  /* Form */
+  form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  p.resolved-message {
+    margin-top: 20px;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* Result File Section */
+  .result-file-section {
+    text-align: center;
+  }
+  
+  .result-file-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .result-file-item {
+    margin: 10px;
+  }
+  
+  .result-file-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .result-file-link:hover {
+    background-color: #45a049;
+  }
+  
+  /* Ticket Resolve Form */
+  form.resolve-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
