@@ -1,0 +1,136 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Result File</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/gerber_edit.css' %}">
+  {% include 'header.html' %}
+</head>
+<body>
+  <div class="result-file-details">
+    <h1 class="form-heading">Edit Result File</h1>
+    <div class="form-field">
+      <label>User:</label>
+      <span>{{ result_file.user }}</span>
+    </div>
+    <div class="form-field">
+      <label>Uploaded File:</label>
+      {% if result_file.uploaded_file.file %}
+        <a href="{% url 'view_file' file_id=result_file.id file_type='uploaded_file' %}" target="_blank" class="file-link">{{ result_file.uploaded_file.file.name }}</a>
+      {% else %}
+        <span class="no-file">No file uploaded</span>
+      {% endif %}
+    </div>
+    <div class="form-field">
+      <label>Zipped Gerbers:</label>
+      {% if result_file.zippedGerbers %}
+        <a href="{% url 'view_file' file_id=result_file.id file_type='zippedGerbers' %}" target="_blank" class="file-link">{{ result_file.zippedGerbers.name }}</a>
+      {% else %}
+        <span class="no-file">No file uploaded</span>
+      {% endif %}
+    </div>
+    <div class="form-field">
+      <label>Zipped Drills:</label>
+      {% if result_file.zippedDrills %}
+        <a href="{% url 'view_file' file_id=result_file.id file_type='zippedDrills' %}" target="_blank" class="file-link">{{ result_file.zippedDrills.name }}</a>
+      {% else %}
+        <span class="no-file">No file uploaded</span>
+      {% endif %}
+    </div>
+    <div class="form-field">
+      <label>DRC Result:</label>
+      {% if result_file.DRCresult %}
+        <a href="{% url 'view_file' file_id=result_file.id file_type='DRCresult' %}" target="_blank" class="file-link">{{ result_file.DRCresult.name }}</a>
+      {% else %}
+        <span class="no-file">No file, DRC Failed to execute</span>
+      {% endif %}
+    </div>
+    <div class="form-field">
+      <label>ERC Result:</label>
+      {% if result_file.ERCresult %}
+        <a href="{% url 'view_file' file_id=result_file.id file_type='ERCresult' %}" target="_blank" class="file-link">{{ result_file.ERCresult.name }}</a>
+      {% else %}
+        <span class="no-file">No file, ERC Failed to execute</span>
+      {% endif %}
+    </div>
+    <div class="form-field">
+      <label>PDF File:</label>
+      {% if result_file.pdf_file %}
+        <a href="{% url 'view_file' file_id=result_file.id file_type='pdf_file' %}" target="_blank" class="file-link">{{ result_file.pdf_file.name }}</a>
+      {% else %}
+        <span class="no-file">No file, PDF Failed to generate</span>
+      {% endif %}
+    </div>
+    <div class="form-field">
+      <label>ID:</label>
+      <span>{{ result_file.id }}</span>
+    </div>
+    <div class="form-field">
+      <label>Description:</label>
+      <span>{{ result_file.description }}</span>
+    </div>
+    <div class="form-field">
+      <label>Valid:</label>
+      <span>{{ result_file.valid }}</span>
+    </div>
+    <div class="form-field">
+      <label>Version:</label>
+      <span>{{ result_file.version }}</span>
+    </div>
+  </div>
+  {% if result_file.locked%}
+    <div class="form-container">
+      <h2 class="form-heading">File Locked, you are not able to edit it.</h2>
+      <h3 class="form-heading">Your file is automaticaly locked when it has been send to production.</h3>
+    </div>
+  {% else %}
+    <div class="form-container">
+      <h2 class="form-heading">Upload New File</h2>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-field">
+          <label for="id_uploaded_file">Uploaded File:</label>
+          <input type="file" name="uploaded_file" id="id_uploaded_file" required>
+        </div>
+        <div class="form-field">
+          <label for="id_description">Description:</label>
+          <textarea name="description" id="id_description" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Upload</button>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <form method="post">
+        {% csrf_token %}
+        {{ form2.as_p }}
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  {% endif %}
+
+  {% if result_file.locked and user.is_staff%}
+    <div class="form-container">
+      <h2 class="form-heading">Upload New File (Forcing using Staff rights)</h2>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-field">
+          <label for="id_uploaded_file">Uploaded File:</label>
+          <input type="file" name="uploaded_file" id="id_uploaded_file" required>
+        </div>
+        <div class="form-field">
+          <label for="id_description">Description:</label>
+          <textarea name="description" id="id_description" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Upload {{ failed_form2_nas }}</button>
+      </form>
+      {% if failed_form2_nae %}
+        <h3> Some Errors that you want to ignore are not authorized to be ignored.</h3>
+      {%endif%}
+      {% if failed_form2_nas %}
+       <h3> For your file to be valid, you need to submit the above form with all checkbox checked. </h3>
+      {%endif%}
+    </div>
+  {% endif %}
+</body>
+</html>
