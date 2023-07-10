@@ -1,0 +1,96 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background color and font styles */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the content */
+.ticket-create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Set styles for the form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px; /* Increase font size */
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px; /* Increase font size */
+  transition: background-color 0.3s; /* Add transition effect */
+  align-self: flex-start; /* Align the button to the left */
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add spacing and alignment to the form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label,
+.form-group input,
+.form-group textarea {
+  width: 100%;
+}
+
+/* Add spacing to the submit button */
+.form-group.submit-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start; /* Adjust alignment */
+}
+
+/* Add custom styles for ModelMultipleChoiceField */
+.form-group select {
+  font-size: 14px; /* Adjust font size */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 480px) {
+  form {
+    width: 90%;
+  }
+}
