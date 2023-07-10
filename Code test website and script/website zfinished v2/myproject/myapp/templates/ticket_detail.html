@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Detail</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/ticket_detail.css' %}">
+</head>
+<body>
+    {% include 'header.html' %}
+    <h1 class="title">Ticket Detail - {{ ticket.title }}</h1>
+    <p class="description"><strong>Description:</strong> {{ ticket.description }}</p>
+
+    {% if ticket.result_file %}
+    <div class="result-file-section">
+        <h2 class="section-title">Result File:</h2>
+        <ul class="result-file-list">
+            <li>
+                <strong>User:</strong> {{ ticket.result_file.user.username }}
+            </li>
+            <li>
+                <strong>Uploaded At:</strong> {{ ticket.result_file.uploaded_at }}
+            </li>
+            <li>
+                <strong>Filename:</strong> {{ ticket.result_file.filename }}
+            </li>
+        </ul>
+        <ul class="result-file-list">
+            <li>
+                <strong>Description:</strong> {{ ticket.result_file.description }}
+            </li>
+        </ul>
+        {% if ticket.result_file.zippedGerbers %}
+            <a href="{% url 'view_file' file_id=ticket.result_file.id file_type='zippedGerbers' %}" class="download-button">Download Zipped Gerbers</a>
+        {% endif %}
+        {% if ticket.result_file.zippedDrills %}
+            <a href="{% url 'view_file' file_id=ticket.result_file.id file_type='zippedDrills' %}" class="download-button">Download Zipped Drills</a>
+        {% endif %}
+        {% if ticket.result_file.DRCresult %}
+            <a href="{% url 'view_file' file_id=ticket.result_file.id file_type='DRCresult' %}" class="download-button">Download DRC Result</a>
+        {% endif %}
+        {% if ticket.result_file.ERCresult %}
+            <a href="{% url 'view_file' file_id=ticket.result_file.id file_type='ERCresult' %}" class="download-button">Download ERC Result</a>
+        {% endif %}
+        {% if ticket.result_file.uploaded_file %}
+            <a href="{% url 'view_file' file_id=ticket.result_file.id file_type='uploaded_file' %}" class="download-button">Download Kicad Project</a>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <h2 class="section-title">Conversation:</h2>
+    <ul class="conversation-list">
+        {% for message in messages %}
+        <li>
+            {% if message.answeredByStaff %}
+            <strong>Staff: {{ message.sender.username }}:</strong>
+            {% else %}
+            <strong>User: {{ message.sender.username }}:</strong>
+            {% endif %}
+            {{ message.content }} - {{ message.created_at }}
+        </li>
+        {% endfor %}
+    </ul>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        {% if user.is_staff %}
+            {% if ticket.resolved %}
+                <button type="submit" name="unresolve_ticket" class="submit-button">Unresolve Ticket</button>
+            {% else %}
+                <button type="submit" name="staff_response" {% if resolved %}disabled{% endif %} class="submit-button">Answer as Staff</button>
+            
+            {% endif %}
+        {% endif %}
+        {% if ticket.resolved %}
+            {% if ticket.reopen_requested %}
+                <button type="submit" name="useless_ticket" class="submit-button">Reopen requested, please wait for Staff to Reopen!</button>
+            {% else %}
+                <button type="submit" name="reopen_ticket" class="submit-button">Reopen Ticket</button>
+            {% endif %}
+        {% else %}
+            <button type="submit" name="user_response"  class="submit-button">Answer as User</button>
+        {% endif %}
+        
+    </form>
+
+    {% if not ticket.resolved %}
+    <form method="post" action="{% url 'ticket_resolve' ticket.id %}" class="resolve-form">
+        {% csrf_token %}
+        <button type="submit" class="submit-button">Resolve Ticket</button>
+    </form>
+    {% else %}
+    <p class="resolved-message">This ticket has been resolved.</p>
+    {% endif %}
+</body>
+</html>

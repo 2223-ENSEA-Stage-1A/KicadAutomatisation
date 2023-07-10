@@ -1,0 +1,35 @@
+{% load static %}
+
+{% include 'header.html' %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deposit Form</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+{% if messages %}
+    <ul class="messages">
+    {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+        {{ message.message }}
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
+<div class="container">
+    <div class="form-container">
+        <h1>Deposit Form</h1>
+        <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+

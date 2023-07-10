@@ -1,0 +1,12 @@
+kibot:
+  version: 1
+
+preflight:
+  filters:
+    - filter: 'Filter description'
+      error: '10'
+      regex: 'Regular expression to match'
+
+  run_drc: True # Run the DRC 
+
+
