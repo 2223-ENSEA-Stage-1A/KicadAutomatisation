@@ -1,0 +1,2976 @@
+** Drc report for /tmp/tmpoxss5o5i/output_panel2023-07-11_072908.4244690000.kicad_pcb **
+** Created on 2023-07-11 09:29:17 **
+
+** Found 876 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(113.8500 mm, 52.1250 mm): Track [POWER-v0-_CHECK-v0-] on F.Cu, length 0.0707 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(111.9000 mm, 52.1250 mm): Track [POWER-v0-_CHECK-v0-] on F.Cu, length 0.2125 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(84.8160 mm, 3.1840 mm): Track [Glob_Alim-v0-] on B.Cu, length 0.5996 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.6460 mm, 20.7100 mm): Track [Net-(D6-A)-v0-] on F.Cu, length 0.2540 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(79.7670 mm, 41.7920 mm): Track [A_Button-v0-] on F.Cu, length 0.1301 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(90.8680 mm, 39.5060 mm): Track [B_Button-v0-] on F.Cu, length 0.1864 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(81.0127 mm, 30.9873 mm): Track [Y_Button-v0-] on B.Cu, length 0.1235 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(77.6600 mm, 35.3650 mm): Track [GPIO_EX_CL-v0-K] on F.Cu, length 0.2263 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(98.4482 mm, 82.8200 mm): Track [Net-(D7-A)-v1-] on B.Cu, length 0.2543 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(98.4482 mm, 141.8200 mm): Track [Net-(D7-A)-v2-] on B.Cu, length 0.2543 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0520 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(76.8980 mm, 22.9960 mm): Via [GND-v0-] on F.Cu - B.Cu
+    @(77.5500 mm, 22.7000 mm): Pad 14 [unconnected-(U5-P3-Pad14)-v0-] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0480 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(76.8980 mm, 22.9960 mm): Via [GND-v0-] on F.Cu - B.Cu
+    @(76.2500 mm, 22.7000 mm): Pad 16 [unconnected-(U5-P4-Pad16)-v0-] of U5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0793 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(78.2150 mm, 4.3850 mm): Track [CSN_nR-v0-F24] on B.Cu, length 0.3677 mm
+    @(78.9000 mm, 3.4250 mm): Pad 2 [GND-v0-] of C1 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0375 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(78.4750 mm, 4.1250 mm): Track [CSN_nR-v0-F24] on B.Cu, length 5.5900 mm
+    @(78.9000 mm, 3.4250 mm): Pad 2 [GND-v0-] of C1 on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(71.4382 mm, 104.8750 mm): Track [Glob_Alim-v1-] on F.Cu, length 6.7450 mm
+    @(35.6882 mm, 107.8000 mm): PCB Text Box on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(76.2382 mm, 104.8750 mm): Track [POWER-v1-_CHECK-v1-] on F.Cu, length 7.3650 mm
+    @(35.6882 mm, 107.8000 mm): PCB Text Box on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(75.2782 mm, 112.8400 mm): Track [R-v1-eset_Buton -v1-] on F.Cu, length 5.1800 mm
+    @(35.6882 mm, 107.8000 mm): PCB Text Box on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(71.4382 mm, 163.8750 mm): Track [Glob_Alim-v2-] on F.Cu, length 6.7450 mm
+    @(35.6882 mm, 166.8000 mm): PCB Text Box on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(76.2382 mm, 163.8750 mm): Track [POWER-v2-_CHECK-v2-] on F.Cu, length 7.3650 mm
+    @(35.6882 mm, 166.8000 mm): PCB Text Box on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(75.2782 mm, 171.8400 mm): Track [R-v2-eset_Buton -v2-] on F.Cu, length 5.1800 mm
+    @(35.6882 mm, 166.8000 mm): PCB Text Box on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2480 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(76.2500 mm, 22.7000 mm): Pad 16 [unconnected-(U5-P4-Pad16)-v0-] of U5 on F.Cu
+    @(76.8980 mm, 22.9960 mm): Via [GND-v0-] on F.Cu - B.Cu
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; Severity: error
+    @(35.6882 mm, 166.8000 mm): PCB Text Box on F.Cu
+    @(0.5482 mm, 119.8000 mm): Zone [GND-v2-] on F.Cu and 1 more
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; Severity: error
+    @(35.6882 mm, 107.8000 mm): PCB Text Box on F.Cu
+    @(0.5482 mm, 60.8000 mm): Zone [GND-v1-] on F.Cu and 1 more
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2400 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(77.9982 mm, 62.1400 mm): Track [Glob_Alim-v1-] on B.Cu, length 1.8809 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2400 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(82.3582 mm, 62.1400 mm): Track [Glob_Alim-v1-] on B.Cu, length 4.3600 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2400 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(83.9782 mm, 63.7600 mm): Track [Glob_Alim-v1-] on B.Cu, length 2.2910 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4100 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(81.5282 mm, 119.0900 mm): Track [R-v1-eset_Buton -v1-] on F.Cu, length 8.8388 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4100 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(103.2482 mm, 118.4000 mm): Track [R-v1-eset_Buton -v1-] on F.Cu, length 0.9758 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4100 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(102.5582 mm, 119.0900 mm): Track [R-v1-eset_Buton -v1-] on F.Cu, length 21.0300 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2400 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 120.7000 mm): Line on Edge.Cuts
+    @(83.9782 mm, 122.7600 mm): Track [Glob_Alim-v2-] on B.Cu, length 2.2910 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2400 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 120.7000 mm): Line on Edge.Cuts
+    @(82.3582 mm, 121.1400 mm): Track [Glob_Alim-v2-] on B.Cu, length 4.3600 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2400 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 120.7000 mm): Line on Edge.Cuts
+    @(77.9982 mm, 121.1400 mm): Track [Glob_Alim-v2-] on B.Cu, length 1.8809 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4100 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 178.7000 mm): Line on Edge.Cuts
+    @(81.5282 mm, 178.0900 mm): Track [R-v2-eset_Buton -v2-] on F.Cu, length 8.8388 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4100 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 178.7000 mm): Line on Edge.Cuts
+    @(102.5582 mm, 178.0900 mm): Track [R-v2-eset_Buton -v2-] on F.Cu, length 21.0300 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4100 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 178.7000 mm): Line on Edge.Cuts
+    @(103.2482 mm, 177.4000 mm): Track [R-v2-eset_Buton -v2-] on F.Cu, length 0.9758 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(57.7382 mm, 120.2700 mm): Reference 'D6'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(48.5000 mm, 0.2700 mm): Reference 'D3'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(103.4250 mm, -2.3000 mm): Reference 'R-v0-32'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(50.7382 mm, 120.2700 mm): Reference 'D4'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(91.3000 mm, -2.3000 mm): Reference 'R-v0-24'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(91.7082 mm, 64.0125 mm): Reference 'R-v1-26'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(98.9000 mm, -2.3000 mm): Reference 'R-v0-29'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(94.7082 mm, 64.0125 mm): Reference 'R-v1-28'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(87.2082 mm, 64.0125 mm): Reference 'R-v1-23'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(55.5000 mm, 0.2700 mm): Reference 'D5'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(57.7382 mm, 61.2700 mm): Reference 'D6'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(94.3000 mm, -2.3000 mm): Reference 'R-v0-26'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(97.7082 mm, 64.0125 mm): Reference 'R-v1-30'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(93.2082 mm, 123.0125 mm): Reference 'R-v2-27'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(59.0000 mm, 0.2700 mm): Reference 'D6'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(100.7082 mm, 64.0125 mm): Reference 'R-v1-32'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 120.7000 mm): Line on Edge.Cuts
+    @(111.7382 mm, 120.7000 mm): Reference 'SW7'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(95.9000 mm, -2.3000 mm): Reference 'R-v0-27'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(94.7082 mm, 123.0125 mm): Reference 'R-v2-28'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(91.7082 mm, 123.0125 mm): Reference 'R-v2-26'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 120.7000 mm): Line on Edge.Cuts
+    @(82.7082 mm, 120.4300 mm): Reference 'U2'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(111.7382 mm, 61.7000 mm): Reference 'SW7'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(99.2082 mm, 123.0125 mm): Reference 'R-v2-31'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 120.7000 mm): Line on Edge.Cuts
+    @(58.2682 mm, 124.1250 mm): Reference 'R-v2-22'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(52.0000 mm, 0.2700 mm): Reference 'D4'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(100.7082 mm, 123.0125 mm): Reference 'R-v2-32'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(104.9000 mm, -2.3000 mm): Reference 'R-v0-33'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(100.5000 mm, -2.3000 mm): Reference 'R-v0-30'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(88.7082 mm, 123.0125 mm): Reference 'R-v2-24'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(97.7082 mm, 123.0125 mm): Reference 'R-v2-30'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(97.3000 mm, -2.3000 mm): Reference 'R-v0-28'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(96.2082 mm, 64.0125 mm): Reference 'R-v1-29'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(58.2682 mm, 65.1250 mm): Reference 'R-v1-22'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(89.9000 mm, -2.3000 mm): Reference 'R-v0-23'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(99.2082 mm, 64.0125 mm): Reference 'R-v1-31'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(47.2382 mm, 61.2700 mm): Reference 'D3'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(50.7382 mm, 61.2700 mm): Reference 'D4'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(54.2382 mm, 61.2700 mm): Reference 'D5'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(113.0000 mm, 0.7000 mm): Reference 'SW7'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(93.2082 mm, 64.0125 mm): Reference 'R-v1-27'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(102.2082 mm, 64.0125 mm): Reference 'R-v1-33'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(96.2082 mm, 123.0125 mm): Reference 'R-v2-29'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(106.5000 mm, -2.3000 mm): Reference 'R-v0-34'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(102.2082 mm, 123.0125 mm): Reference 'R-v2-33'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(82.7082 mm, 61.4300 mm): Reference 'U2'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(92.7000 mm, -2.3000 mm): Reference 'R-v0-25'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(103.7082 mm, 123.0125 mm): Reference 'R-v2-34'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(87.2082 mm, 123.0125 mm): Reference 'R-v2-23'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(54.2382 mm, 120.2700 mm): Reference 'D5'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(47.2382 mm, 120.2700 mm): Reference 'D3'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(90.1782 mm, 64.0125 mm): Reference 'R-v1-25'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(83.9700 mm, 0.4300 mm): Reference 'U2'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(101.9000 mm, -2.3000 mm): Reference 'R-v0-31'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(103.7082 mm, 64.0125 mm): Reference 'R-v1-34'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 119.7000 mm): Line on Edge.Cuts
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(88.7082 mm, 64.0125 mm): Reference 'R-v1-24'
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4672 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(18.5000 mm, 0.5000 mm): Line on Edge.Cuts
+    @(78.9000 mm, 1.7000 mm): Pad 1 [Glob_Alim-v0-] of C1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2700 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 61.7000 mm): Line on Edge.Cuts
+    @(76.6682 mm, 63.4700 mm): Pad 1 [Glob_Alim-v1-] of C1 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2700 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(17.2382 mm, 120.7000 mm): Line on Edge.Cuts
+    @(76.6682 mm, 122.4700 mm): Pad 1 [Glob_Alim-v2-] of C1 on B.Cu
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(110.6382 mm, 173.0375 mm): Footprint R-v2-10
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(105.3332 mm, 82.4000 mm): Footprint C4
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(57.7382 mm, 121.7000 mm): Footprint D6
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(28.7382 mm, 134.4000 mm): Footprint SW6
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(110.6382 mm, 114.0375 mm): Footprint R-v1-10
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(40.2382 mm, 130.2000 mm): Footprint R-v2-2
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(53.2882 mm, 65.1750 mm): Footprint R-v1-21
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(80.4622 mm, 154.1720 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'TSSOP-28_4.4x9.7mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(96.9722 mm, 75.6140 mm): Footprint U4
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(53.2882 mm, 124.1750 mm): Footprint R-v2-21
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(48.5000 mm, 1.7000 mm): Footprint D3
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(70.7000 mm, -4.9000 mm): Footprint R-v0-5
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(62.5000 mm, 29.7000 mm): Footprint SW12
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(144.5000 mm, 27.7000 mm): Footprint SW2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(108.2332 mm, 146.1825 mm): Footprint C10
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(97.8132 mm, 67.5000 mm): Footprint D13
+[lib_footprint_mismatch]: Footprint 'SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(60.2382 mm, 135.7000 mm): Footprint SW10
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(103.4000 mm, 3.0125 mm): Footprint R-v0-32
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(114.4982 mm, 77.9000 mm): Footprint D2
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(61.4482 mm, 149.7000 mm): Footprint SW12
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(100.6750 mm, 6.5000 mm): Footprint D14
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(50.7382 mm, 121.7000 mm): Footprint D4
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(119.5000 mm, 27.7000 mm): Footprint SW5
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(90.8680 mm, 13.5980 mm): Footprint R-v0-11
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(130.7382 mm, 76.2000 mm): Footprint SW4
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(86.0482 mm, 77.3000 mm): Footprint R-v1-11
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(28.7382 mm, 159.4000 mm): Footprint SW11
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(130.7382 mm, 160.2000 mm): Footprint SW3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(108.2332 mm, 87.1825 mm): Footprint C10
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(101.0132 mm, 126.5000 mm): Footprint D15
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(61.0882 mm, 82.4000 mm): Footprint R-v1-1
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(91.4000 mm, 3.0125 mm): Footprint R-v0-24
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(93.1382 mm, 64.0125 mm): Footprint R-v1-26
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(102.6132 mm, 126.5000 mm): Footprint D16
+[lib_footprint_mismatch]: Footprint 'JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(126.1422 mm, 124.9620 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(78.9382 mm, 154.1720 mm): Footprint C3
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(107.1000 mm, 6.5000 mm): Footprint D18
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(87.0482 mm, 74.8000 mm): Footprint R-v1-16
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(62.3500 mm, 21.4000 mm): Footprint R-v0-1
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(98.9000 mm, 3.0125 mm): Footprint R-v0-29
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(96.1382 mm, 64.0125 mm): Footprint R-v1-28
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(80.2000 mm, 34.1720 mm): Footprint C3
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(86.0482 mm, 136.3000 mm): Footprint R-v2-11
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(124.2382 mm, 129.7000 mm): Footprint R-v2-13
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(101.0132 mm, 67.5000 mm): Footprint D15
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(88.6382 mm, 64.0125 mm): Footprint R-v1-23
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(16.2382 mm, 147.7000 mm): Footprint SW9
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(54.5500 mm, 4.1750 mm): Footprint R-v0-21
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(55.5000 mm, 1.7000 mm): Footprint D5
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(143.2382 mm, 147.7000 mm): Footprint SW2
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(91.0250 mm, 6.5250 mm): Footprint D8
+[lib_footprint_mismatch]: Footprint 'MSOP-8_3x3mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(114.2382 mm, 73.7000 mm): Footprint U3
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(85.0482 mm, 137.8000 mm): Footprint R-v2-14
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(57.7382 mm, 62.7000 mm): Footprint D6
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(99.0750 mm, 6.5000 mm): Footprint D13
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(94.4000 mm, 3.0125 mm): Footprint R-v0-26
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(113.9000 mm, 53.0375 mm): Footprint C2
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(97.4500 mm, 6.5125 mm): Footprint D12
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x07_P1.27mm_Vertical_SMD' does not match copy in library 'Connector_PinHeader_1.27mm'.
+    Local override; Severity: warning
+    @(96.3632 mm, 169.6400 mm): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(46.2632 mm, 124.1750 mm): Footprint R-v2-18
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(99.1382 mm, 64.0125 mm): Footprint R-v1-30
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(94.6382 mm, 123.0125 mm): Footprint R-v2-27
+[lib_footprint_mismatch]: Footprint 'JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(36.9882 mm, 65.7250 mm): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(115.7600 mm, 15.3760 mm): Footprint R-v0-3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(69.5402 mm, 165.0940 mm): Footprint C5
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(104.2132 mm, 126.5000 mm): Footprint D17
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(30.0000 mm, 15.2000 mm): Footprint SW6
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(59.0000 mm, 1.7000 mm): Footprint D6
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(51.0250 mm, 4.2000 mm): Footprint R-v0-20
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(102.1382 mm, 64.0125 mm): Footprint R-v1-32
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(99.4132 mm, 126.5000 mm): Footprint D14
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(125.5000 mm, 9.7000 mm): Footprint R-v0-13
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(78.5000 mm, 30.9000 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x07_P1.27mm_Vertical_SMD' does not match copy in library 'Connector_PinHeader_1.27mm'.
+    Local override; Severity: warning
+    @(97.6250 mm, 49.6400 mm): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(90.8680 mm, 15.1220 mm): Footprint R-v0-14
+[lib_footprint_mismatch]: Footprint 'SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(104.4082 mm, 76.7000 mm): Footprint SW1
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(102.6132 mm, 67.5000 mm): Footprint D16
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(91.3632 mm, 126.5250 mm): Footprint D9
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(111.7382 mm, 125.2000 mm): Footprint SW7
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(114.4982 mm, 135.3760 mm): Footprint R-v2-3
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(28.7382 mm, 100.4000 mm): Footprint SW11
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(96.1982 mm, 67.5125 mm): Footprint D12
+[lib_footprint_mismatch]: Footprint 'SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(60.2382 mm, 76.7000 mm): Footprint SW10
+[lib_footprint_mismatch]: Footprint 'SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(104.4082 mm, 135.7000 mm): Footprint SW1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(80.4622 mm, 95.1720 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(95.2382 mm, 149.7000 mm): Footprint SW13
+[lib_footprint_issues]: Footprint 'L-v0-QFP-32_7x7mm_P0.8mm' not found in library 'Package_QFP'.
+    Local override; Severity: warning
+    @(75.5000 mm, 39.7000 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(41.2382 mm, 88.7000 mm): Footprint SW8
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(89.7622 mm, 67.5250 mm): Footprint D8
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(92.9632 mm, 67.5250 mm): Footprint D10
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(99.4132 mm, 67.5000 mm): Footprint D14
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(49.7632 mm, 65.2000 mm): Footprint R-v1-20
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(106.5950 mm, 31.9700 mm): Footprint C4
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(95.9000 mm, 3.0125 mm): Footprint R-v0-27
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(112.6382 mm, 173.0375 mm): Footprint C2
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(96.1382 mm, 123.0125 mm): Footprint R-v2-28
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(89.4250 mm, 6.5250 mm): Footprint D7
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(93.1382 mm, 123.0125 mm): Footprint R-v2-26
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; Severity: warning
+    @(81.4382 mm, 122.7600 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'MSOP-8_3x3mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(115.5000 mm, 12.7000 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(61.5000 mm, 15.7000 mm): Footprint SW10
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(111.7382 mm, 66.2000 mm): Footprint SW7
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(105.4750 mm, 6.5000 mm): Footprint D17
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(100.6382 mm, 123.0125 mm): Footprint R-v2-31
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(88.1632 mm, 67.5250 mm): Footprint D7
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(94.5632 mm, 126.5250 mm): Footprint D11
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(22.7462 mm, 154.2500 mm): Footprint R-v2-7
+[lib_footprint_mismatch]: Footprint 'JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(36.9882 mm, 124.7250 mm): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(111.9000 mm, 53.0375 mm): Footprint R-v0-10
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(92.6250 mm, 6.5250 mm): Footprint D9
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(56.8382 mm, 124.1250 mm): Footprint R-v2-22
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x07_P1.27mm_Vertical_SMD' does not match copy in library 'Connector_PinHeader_1.27mm'.
+    Local override; Severity: warning
+    @(96.3632 mm, 110.6400 mm): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(52.0000 mm, 1.7000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(47.5250 mm, 4.1750 mm): Footprint R-v0-18
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(88.1632 mm, 126.5250 mm): Footprint D7
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(102.1382 mm, 123.0125 mm): Footprint R-v2-32
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(96.5000 mm, 29.7000 mm): Footprint SW13
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(104.9000 mm, 3.0125 mm): Footprint R-v0-33
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(104.2132 mm, 67.5000 mm): Footprint D17
+[lib_footprint_mismatch]: Footprint 'MSOP-8_3x3mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(114.2382 mm, 132.7000 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(26.1462 mm, 95.2500 mm): Footprint C8
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(94.2250 mm, 6.5250 mm): Footprint D10
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(118.2382 mm, 147.7000 mm): Footprint SW5
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(100.4000 mm, 3.0125 mm): Footprint R-v0-30
+[lib_footprint_mismatch]: Footprint 'SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(105.6700 mm, 26.2700 mm): Footprint SW1
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(103.8750 mm, 6.5000 mm): Footprint D16
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(90.1382 mm, 123.0125 mm): Footprint R-v2-24
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(112.6382 mm, 169.5000 mm): Footprint R-v2-9
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(82.9000 mm, 29.5875 mm): Footprint R-v0-4
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(85.0482 mm, 78.8000 mm): Footprint R-v1-14
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(112.6382 mm, 110.5000 mm): Footprint R-v1-9
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(17.5000 mm, 27.7000 mm): Footprint SW9
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(99.1382 mm, 123.0125 mm): Footprint R-v2-30
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(132.0000 mm, 15.2000 mm): Footprint SW4
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(97.4000 mm, 3.0125 mm): Footprint R-v0-28
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(136.5502 mm, 154.2500 mm): Footprint C7
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(97.8132 mm, 126.5000 mm): Footprint D13
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(95.2382 mm, 90.7000 mm): Footprint SW13
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(97.6382 mm, 64.0125 mm): Footprint R-v1-29
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(91.3632 mm, 67.5250 mm): Footprint D9
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(16.2382 mm, 88.7000 mm): Footprint SW9
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(56.8382 mm, 65.1250 mm): Footprint R-v1-22
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(105.8382 mm, 126.5000 mm): Footprint D18
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(89.9000 mm, 3.0125 mm): Footprint R-v0-23
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(64.9875 mm, -4.9000 mm): Footprint R-v0-6
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(49.7632 mm, 124.2000 mm): Footprint R-v2-20
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(105.8382 mm, 67.5000 mm): Footprint D18
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(100.6382 mm, 64.0125 mm): Footprint R-v1-31
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(115.7600 mm, 16.9000 mm): Footprint D2
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(47.2382 mm, 62.7000 mm): Footprint D3
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(50.7382 mm, 62.7000 mm): Footprint D4
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(110.2882 mm, 135.6000 mm): Footprint C9
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(111.5500 mm, 15.6000 mm): Footprint C9
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(87.0482 mm, 133.8000 mm): Footprint R-v2-16
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(113.9000 mm, 49.5000 mm): Footprint R-v0-9
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(22.7462 mm, 95.2500 mm): Footprint R-v1-7
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(130.7382 mm, 135.2000 mm): Footprint SW4
+[lib_footprint_mismatch]: Footprint 'JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(127.4040 mm, 4.9620 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'TSSOP-28_4.4x9.7mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(96.9722 mm, 134.6140 mm): Footprint U4
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(54.2382 mm, 62.7000 mm): Footprint D5
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(113.0000 mm, 5.2000 mm): Footprint SW7
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(132.0000 mm, 40.2000 mm): Footprint SW3
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(94.6382 mm, 64.0125 mm): Footprint R-v1-27
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(114.4982 mm, 136.9000 mm): Footprint D2
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(103.6382 mm, 64.0125 mm): Footprint R-v1-33
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(41.5000 mm, 10.2000 mm): Footprint R-v0-2
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(102.2750 mm, 6.5000 mm): Footprint D15
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(97.6382 mm, 123.0125 mm): Footprint R-v2-29
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(89.7622 mm, 126.5250 mm): Footprint D8
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(106.4000 mm, 3.0125 mm): Footprint R-v0-34
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(109.4950 mm, 26.1825 mm): Footprint C10
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(70.8020 mm, 45.0940 mm): Footprint C5
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(46.2632 mm, 65.1750 mm): Footprint R-v1-18
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(28.7382 mm, 75.4000 mm): Footprint SW6
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(118.2382 mm, 88.7000 mm): Footprint SW5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(69.5402 mm, 106.0940 mm): Footprint C5
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(103.6382 mm, 123.0125 mm): Footprint R-v2-33
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(81.7240 mm, 34.1720 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; Severity: warning
+    @(81.4382 mm, 63.7600 mm): Footprint U2
+[lib_footprint_issues]: Footprint 'L-v1-QFP-32_7x7mm_P0.8mm' not found in library 'Package_QFP'.
+    Local override; Severity: warning
+    @(74.2382 mm, 100.7000 mm): Footprint U1
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(58.1000 mm, 4.1250 mm): Footprint R-v0-22
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(92.9000 mm, 3.0125 mm): Footprint R-v0-25
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(105.1382 mm, 123.0125 mm): Footprint R-v2-34
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(61.4482 mm, 90.7000 mm): Footprint SW12
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(88.6382 mm, 123.0125 mm): Footprint R-v2-23
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(110.2882 mm, 76.6000 mm): Footprint C9
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(90.8680 mm, 12.0740 mm): Footprint R-v0-16
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(54.2382 mm, 121.7000 mm): Footprint D5
+[lib_footprint_mismatch]: Footprint 'TSSOP-28_4.4x9.7mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(98.2340 mm, 14.6140 mm): Footprint U4
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(92.9632 mm, 126.5250 mm): Footprint D10
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(47.2382 mm, 121.7000 mm): Footprint D3
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(140.0502 mm, 95.2500 mm): Footprint R-v1-4
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(140.0502 mm, 154.2500 mm): Footprint R-v2-4
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(91.6082 mm, 64.0125 mm): Footprint R-v1-25
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(61.0882 mm, 141.4000 mm): Footprint R-v2-1
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(143.2382 mm, 88.7000 mm): Footprint SW2
+[lib_footprint_issues]: The current configuration does not include the library 'L-v0-ED_SMD'.
+    Local override; Severity: warning
+    @(95.8250 mm, 6.5250 mm): Footprint D11
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(26.1462 mm, 154.2500 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(126.1422 mm, 65.9620 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; Severity: warning
+    @(82.7000 mm, 2.7600 mm): Footprint U2
+[lib_footprint_issues]: The current configuration does not include the library 'R-v0-esistor_SMD'.
+    Local override; Severity: warning
+    @(101.9000 mm, 3.0125 mm): Footprint R-v0-31
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(105.1382 mm, 64.0125 mm): Footprint R-v1-34
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(112.6382 mm, 114.0375 mm): Footprint C2
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(124.2382 mm, 70.7000 mm): Footprint R-v1-13
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(130.7382 mm, 101.2000 mm): Footprint SW3
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(40.2382 mm, 71.2000 mm): Footprint R-v1-2
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(91.6082 mm, 123.0125 mm): Footprint R-v2-25
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(90.1382 mm, 64.0125 mm): Footprint R-v1-24
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(105.3332 mm, 141.4000 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(38.2500 mm, 4.7250 mm): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the library 'L-v2-ED_SMD'.
+    Local override; Severity: warning
+    @(96.1982 mm, 126.5125 mm): Footprint D12
+[lib_footprint_issues]: Footprint 'L-v2-QFP-32_7x7mm_P0.8mm' not found in library 'Package_QFP'.
+    Local override; Severity: warning
+    @(74.2382 mm, 159.7000 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(30.0000 mm, 40.2000 mm): Footprint SW11
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(78.9382 mm, 95.1720 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(42.5000 mm, 27.7000 mm): Footprint SW8
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(114.4982 mm, 76.3760 mm): Footprint R-v1-3
+[lib_footprint_mismatch]: Footprint 'SW_SPST_B3S-1000' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(41.2382 mm, 147.7000 mm): Footprint SW8
+[lib_footprint_issues]: The current configuration does not include the library 'L-v1-ED_SMD'.
+    Local override; Severity: warning
+    @(94.5632 mm, 67.5250 mm): Footprint D11
+[lib_footprint_mismatch]: Footprint 'SSOP-20_4.4x6.5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(76.5750 mm, 25.6000 mm): Footprint U5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(136.5502 mm, 95.2500 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'SSOP-20_4.4x6.5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(131.5482 mm, 145.8000 mm): Footprint U6
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(134.0482 mm, 94.3000 mm): Footprint R-v1-5
+[lib_footprint_mismatch]: Footprint 'JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(116.5132 mm, 169.1000 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(116.9000 mm, 49.1000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(30.5482 mm, 153.3000 mm): Footprint R-v2-8
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(131.6482 mm, 91.8000 mm): Footprint R-v1-6
+[lib_footprint_mismatch]: Footprint 'JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(116.5132 mm, 110.1000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(34.5482 mm, 151.0000 mm): Footprint R-v2-12
+[lib_footprint_mismatch]: Footprint 'SSOP-20_4.4x6.5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(28.5482 mm, 145.8000 mm): Footprint U5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(78.9000 mm, 2.5625 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'CP_Elec_5x5.4' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(76.6682 mm, 65.6700 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'SSOP-20_4.4x6.5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(131.5482 mm, 86.8000 mm): Footprint U6
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(134.0482 mm, 153.3000 mm): Footprint R-v2-5
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(34.5482 mm, 92.0000 mm): Footprint R-v1-12
+[lib_footprint_mismatch]: Footprint 'CP_Elec_5x5.4' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(76.6682 mm, 124.6700 mm): Footprint C1
+[lib_footprint_issues]: The current configuration does not include the library 'R-v1-esistor_SMD'.
+    Local override; Severity: warning
+    @(30.5482 mm, 94.3000 mm): Footprint R-v1-8
+[lib_footprint_issues]: The current configuration does not include the library 'R-v2-esistor_SMD'.
+    Local override; Severity: warning
+    @(131.6482 mm, 150.8000 mm): Footprint R-v2-6
+[lib_footprint_mismatch]: Footprint 'SSOP-20_4.4x6.5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(28.5482 mm, 86.8000 mm): Footprint U5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(110.6382 mm, 173.0375 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(105.3332 mm, 82.4000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of C4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(57.7382 mm, 121.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(28.7382 mm, 129.9000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(110.6382 mm, 114.0375 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(40.2382 mm, 130.2000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(18.5000 mm, 49.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of H3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(53.2882 mm, 65.1750 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-21
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(143.5000 mm, 49.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of H6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(80.4622 mm, 154.1720 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of C6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(96.9722 mm, 75.6140 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of U4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(53.2882 mm, 124.1750 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-21
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(48.5000 mm, 1.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(70.7000 mm, -4.9000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(62.5000 mm, 25.2000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW12
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(144.5000 mm, 23.2000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(103.8732 mm, 146.1525 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of C10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(97.8132 mm, 67.5000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D13
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(60.2382 mm, 133.6000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(103.4000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-32
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(114.4982 mm, 77.9000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(153.5000 mm, 27.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of H5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(61.4482 mm, 145.2000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW12
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(100.6750 mm, 6.5000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D14
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(50.7382 mm, 121.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(119.5000 mm, 23.2000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(90.8680 mm, 13.5980 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-11
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(7.2382 mm, 88.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of H2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(130.7382 mm, 71.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(86.0482 mm, 77.3000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-11
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(28.8082 mm, 165.7400 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW11
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(130.7382 mm, 155.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(103.8732 mm, 87.1525 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of C10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(101.0132 mm, 126.5000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D15
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(61.0882 mm, 82.4000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(91.4000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-24
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(17.2382 mm, 110.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of H3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(93.1382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-26
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(102.6132 mm, 126.5000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D16
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(123.6422 mm, 122.2620 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of J4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(78.9382 mm, 154.1720 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of C3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(107.1000 mm, 6.5000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D18
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(87.0482 mm, 74.8000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-16
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(62.3500 mm, 21.4000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(98.9000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-29
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(96.1382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-28
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(80.2000 mm, 34.1720 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of C3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(86.0482 mm, 136.3000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-11
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(124.2382 mm, 129.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-13
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(101.0132 mm, 67.5000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D15
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(88.6382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-23
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(16.2382 mm, 143.2000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(54.5500 mm, 4.1750 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-21
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(55.5000 mm, 1.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(143.2382 mm, 143.2000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(91.0250 mm, 6.5250 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D8
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(114.2382 mm, 73.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of U3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(85.0482 mm, 137.8000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-14
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(57.7382 mm, 62.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(99.0750 mm, 6.5000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D13
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(94.4000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-26
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(113.9000 mm, 53.0375 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of C2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(97.4500 mm, 6.5125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D12
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(96.3632 mm, 169.6400 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of J2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(152.2382 mm, 88.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of H5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(46.2632 mm, 124.1750 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-18
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(99.1382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-30
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(94.6382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-27
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(34.4882 mm, 63.0250 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of J3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(17.2382 mm, 169.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of H3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(115.7600 mm, 15.3760 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(69.5402 mm, 165.0940 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of C5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(104.2132 mm, 126.5000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D17
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(30.0000 mm, 10.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(59.0000 mm, 1.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(51.0250 mm, 4.2000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-20
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(142.2382 mm, 68.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of H4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(102.1382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-32
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(99.4132 mm, 126.5000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D14
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(125.5000 mm, 9.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-13
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(78.5000 mm, 30.9000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of C7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(97.6250 mm, 49.6400 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of J2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(90.8680 mm, 15.1220 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-14
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(104.4082 mm, 74.6000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(102.6132 mm, 67.5000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D16
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(91.3632 mm, 126.5250 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(111.7382 mm, 120.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(114.4982 mm, 135.3760 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(28.8082 mm, 106.7400 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW11
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(152.2382 mm, 147.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of H5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(96.1982 mm, 67.5125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D12
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(60.2382 mm, 74.6000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(104.4082 mm, 133.6000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(80.4622 mm, 95.1720 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of C6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(95.2382 mm, 145.2000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW13
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(75.5000 mm, 39.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of U1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(41.2382 mm, 84.2000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW8
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(89.7622 mm, 67.5250 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D8
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(92.9632 mm, 67.5250 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(99.4132 mm, 67.5000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D14
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(49.7632 mm, 65.2000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-20
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(106.5950 mm, 31.9700 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of C4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(95.9000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-27
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(112.6382 mm, 173.0375 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of C2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(96.1382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-28
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(89.4250 mm, 6.5250 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(93.1382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-26
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(82.7082 mm, 126.5700 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of U2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(17.2382 mm, 68.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of H1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(115.5000 mm, 12.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of U3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(61.5000 mm, 13.6000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(111.7382 mm, 61.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(105.4750 mm, 6.5000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D17
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(8.5000 mm, 27.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of H2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(100.6382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-31
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(88.1632 mm, 67.5250 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(94.5632 mm, 126.5250 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D11
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(22.7462 mm, 154.2500 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(34.4882 mm, 122.0250 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of J3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(111.9000 mm, 53.0375 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(92.6250 mm, 6.5250 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(56.8382 mm, 124.1250 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-22
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(96.3632 mm, 110.6400 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of J2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(52.0000 mm, 1.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(47.5250 mm, 4.1750 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-18
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(88.1632 mm, 126.5250 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(102.1382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-32
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(96.5000 mm, 25.2000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW13
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(104.9000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-33
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(104.2132 mm, 67.5000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D17
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(114.2382 mm, 132.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of U3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(142.2382 mm, 110.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of H6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(26.1462 mm, 95.2500 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of C8
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(94.2250 mm, 6.5250 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(118.2382 mm, 143.2000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(100.4000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-30
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(102.8100 mm, 25.5700 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(142.2382 mm, 127.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of H4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(103.8750 mm, 6.5000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D16
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(90.1382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-24
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(112.6382 mm, 169.5000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(82.9000 mm, 29.5875 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(85.0482 mm, 78.8000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-14
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(112.6382 mm, 110.5000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(17.5000 mm, 23.2000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(99.1382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-30
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(132.0000 mm, 10.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(97.4000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-28
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(136.5502 mm, 154.2500 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of C7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(97.8132 mm, 126.5000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D13
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(95.2382 mm, 86.2000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW13
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(97.6382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-29
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(143.5000 mm, 7.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of H4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(91.3632 mm, 67.5250 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(16.2382 mm, 84.2000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(56.8382 mm, 65.1250 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-22
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(105.8382 mm, 126.5000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D18
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(89.9000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-23
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(64.9875 mm, -4.9000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(49.7632 mm, 124.2000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-20
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(105.8382 mm, 67.5000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D18
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(100.6382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-31
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(115.7600 mm, 16.9000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(142.2382 mm, 169.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of H6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(47.2382 mm, 62.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(50.7382 mm, 62.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(110.2882 mm, 135.6000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of C9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(111.5500 mm, 15.6000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of C9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(87.0482 mm, 133.8000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-16
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(113.9000 mm, 49.5000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-9
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(22.7462 mm, 95.2500 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(130.7382 mm, 130.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of SW4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(124.9040 mm, 2.2620 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of J4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(96.9722 mm, 134.6140 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of U4
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(54.2382 mm, 62.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of D5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(113.0000 mm, 0.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW7
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(132.0000 mm, 35.7000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of SW3
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(94.6382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-27
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(114.4982 mm, 136.9000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(103.6382 mm, 64.0125 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-33
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(41.5000 mm, 10.2000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(102.2750 mm, 6.5000 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of D15
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(97.6382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-29
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(89.7622 mm, 126.5250 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of D8
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(106.4000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-34
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(109.4950 mm, 26.1825 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of C10
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(70.8020 mm, 45.0940 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of C5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(46.2632 mm, 65.1750 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of R-v1-18
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(28.7382 mm, 70.9000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(118.2382 mm, 84.2000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of SW5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(69.5402 mm, 106.0940 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of C5
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(103.6382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-33
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(81.7240 mm, 34.1720 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of C6
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(82.7082 mm, 67.5700 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of U2
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(74.2382 mm, 100.7000 mm): Footprint Text '${R-v1-EFER-v1-ENCE}' of U1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(58.1000 mm, 4.1250 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-22
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(17.2382 mm, 127.7000 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of H1
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(92.9000 mm, 3.0125 mm): Footprint Text '${R-v0-EFER-v0-ENCE}' of R-v0-25
+[unresolved_variable]: Unresolved text variable
+    Local override; Severity: error
+    @(105.1382 mm, 123.0125 mm): Footprint Text '${R-v2-EFER-v2-ENCE}' of R-v2-34
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 276.1969 mm): Zone [GND-v7-] on F.Cu
+    @(103.9311 mm, 297.3969 mm): Pad 2 [GND-v7-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 381.1969 mm): Zone [GND-v10-] on F.Cu
+    @(103.9311 mm, 402.3969 mm): Pad 2 [GND-v10-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 311.1969 mm): Zone [GND-v8-] on F.Cu
+    @(114.4198 mm, 315.3544 mm): Pad 2 [GND-v8-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 381.1969 mm): Zone [GND-v10-] on F.Cu
+    @(129.9498 mm, 391.6569 mm): Pad 11 [GND-v10-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 119.8000 mm): Zone [GND-v2-] on F.Cu and 1 more
+    @(81.4382 mm, 122.7600 mm): PTH pad 1 [GND-v2-] of U2
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 60.8000 mm): Zone [GND-v1-] on F.Cu and 1 more
+    @(53.2882 mm, 66.0875 mm): Pad 2 [GND-v1-] of R-v1-21 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 381.1969 mm): Zone [GND-v10-] on F.Cu
+    @(114.4198 mm, 385.3544 mm): Pad 2 [GND-v10-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 119.8000 mm): Zone [GND-v2-] on F.Cu and 1 more
+    @(53.2882 mm, 125.0875 mm): Pad 2 [GND-v2-] of R-v2-21 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 346.1969 mm): Zone [GND-v9-] on F.Cu
+    @(129.9498 mm, 356.6569 mm): Pad 11 [GND-v9-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(82.7000 mm, 2.7600 mm): PTH pad 1 [GND-v0-] of U2
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 60.8000 mm): Zone [GND-v1-] on F.Cu and 1 more
+    @(101.1972 mm, 78.4765 mm): Pad 14 [GND-v1-] of U4 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 346.1969 mm): Zone [GND-v9-] on F.Cu
+    @(103.9311 mm, 367.3969 mm): Pad 2 [GND-v9-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 346.1969 mm): Zone [GND-v9-] on F.Cu
+    @(114.4198 mm, 350.3544 mm): Pad 2 [GND-v9-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 276.1969 mm): Zone [GND-v7-] on F.Cu
+    @(114.4198 mm, 280.3544 mm): Pad 2 [GND-v7-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(78.9000 mm, 3.4250 mm): Pad 2 [GND-v0-] of C1 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 60.8000 mm): Zone [GND-v1-] on F.Cu and 1 more
+    @(81.4382 mm, 63.7600 mm): PTH pad 1 [GND-v1-] of U2
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 311.1969 mm): Zone [GND-v8-] on F.Cu
+    @(103.9311 mm, 332.3969 mm): Pad 2 [GND-v8-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(80.2000 mm, 35.0345 mm): Pad 2 [GND-v0-] of C3 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 60.8000 mm): Zone [GND-v1-] on F.Cu and 1 more
+    @(113.6232 mm, 77.9000 mm): Pad 1 [GND-v1-] of D2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(51.0250 mm, 5.1125 mm): Pad 2 [GND-v0-] of R-v0-20 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(95.6750 mm, 52.1800 mm): Pad 11 [GND-v0-] of J2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 119.8000 mm): Zone [GND-v2-] on F.Cu and 1 more
+    @(49.7632 mm, 125.1125 mm): Pad 2 [GND-v2-] of R-v2-20 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 60.8000 mm): Zone [GND-v1-] on F.Cu and 1 more
+    @(49.7632 mm, 66.1125 mm): Pad 2 [GND-v1-] of R-v1-20 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 119.8000 mm): Zone [GND-v2-] on F.Cu and 1 more
+    @(101.1972 mm, 137.4765 mm): Pad 14 [GND-v2-] of U4 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(124.9040 mm, 4.9620 mm): PTH pad 2 [GND-v0-] of J4
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(70.8020 mm, 44.2315 mm): Pad 2 [GND-v0-] of C5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(58.1000 mm, 5.0375 mm): Pad 2 [GND-v0-] of R-v0-22 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(0.5482 mm, 119.8000 mm): Zone [GND-v2-] on F.Cu and 1 more
+    @(113.6232 mm, 136.9000 mm): Pad 1 [GND-v2-] of D2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(73.6500 mm, 28.5000 mm): Pad 1 [GND-v0-] of U5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(76.9000 mm, 28.5000 mm): Pad 6 [GND-v0-] of U5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(18.5000 mm, 0.5000 mm): Zone [GND-v0-] on F.Cu and 1 more
+    @(77.5500 mm, 28.5000 mm): Pad 7 [GND-v0-] of U5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(112.0682 mm, 173.0375 mm): Reference 'R-v2-10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(105.3332 mm, 80.9700 mm): Reference 'C4'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(112.0682 mm, 114.0375 mm): Reference 'R-v1-10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(54.7182 mm, 65.1750 mm): Reference 'R-v1-21'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(54.7182 mm, 124.1750 mm): Reference 'R-v2-21'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(99.2432 mm, 67.5000 mm): Reference 'D13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(114.4982 mm, 76.4700 mm): Reference 'D2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(86.0482 mm, 78.7300 mm): Reference 'R-v1-11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(102.4432 mm, 126.5000 mm): Reference 'D15'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(61.0882 mm, 80.9700 mm): Reference 'R-v1-1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(91.7082 mm, 64.0125 mm): Reference 'R-v1-26'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.0432 mm, 126.5000 mm): Reference 'D16'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(80.3682 mm, 154.1720 mm): Reference 'C3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(62.3500 mm, 19.9700 mm): Reference 'R-v0-1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(94.7082 mm, 64.0125 mm): Reference 'R-v1-28'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(81.6300 mm, 34.1720 mm): Reference 'C3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(86.0482 mm, 137.7300 mm): Reference 'R-v2-11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(102.4432 mm, 67.5000 mm): Reference 'D15'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(87.2082 mm, 64.0125 mm): Reference 'R-v1-23'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(55.9800 mm, 4.1750 mm): Reference 'R-v0-21'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(85.0482 mm, 136.3700 mm): Reference 'R-v2-14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(47.6932 mm, 124.1750 mm): Reference 'R-v2-18'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(97.7082 mm, 64.0125 mm): Reference 'R-v1-30'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(93.2082 mm, 123.0125 mm): Reference 'R-v2-27'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.7600 mm, 13.9460 mm): Reference 'R-v0-3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(70.9702 mm, 165.0940 mm): Reference 'C5'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(105.6432 mm, 126.5000 mm): Reference 'D17'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(52.4550 mm, 4.2000 mm): Reference 'R-v0-20'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(100.7082 mm, 64.0125 mm): Reference 'R-v1-32'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(100.8432 mm, 126.5000 mm): Reference 'D14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(88.9430 mm, 7.8470 mm): Reference 'R-v0-14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.0432 mm, 67.5000 mm): Reference 'D16'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(92.7932 mm, 126.5250 mm): Reference 'D9'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(114.4982 mm, 133.9460 mm): Reference 'R-v2-3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(97.6282 mm, 67.5125 mm): Reference 'D12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(91.1922 mm, 67.5250 mm): Reference 'D8'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(94.3932 mm, 67.5250 mm): Reference 'D10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(100.8432 mm, 67.5000 mm): Reference 'D14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(51.1932 mm, 65.2000 mm): Reference 'R-v1-20'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(106.5950 mm, 30.5400 mm): Reference 'C4'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(94.7082 mm, 123.0125 mm): Reference 'R-v2-28'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(91.7082 mm, 123.0125 mm): Reference 'R-v2-26'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(99.2082 mm, 123.0125 mm): Reference 'R-v2-31'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(89.5932 mm, 67.5250 mm): Reference 'D7'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(95.9932 mm, 126.5250 mm): Reference 'D11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(113.3300 mm, 53.0375 mm): Reference 'R-v0-10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(58.2682 mm, 124.1250 mm): Reference 'R-v2-22'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(47.3000 mm, 7.5000 mm): Reference 'R-v0-18'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(89.5932 mm, 126.5250 mm): Reference 'D7'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(100.7082 mm, 123.0125 mm): Reference 'R-v2-32'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(105.6432 mm, 67.5000 mm): Reference 'D17'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(88.7082 mm, 123.0125 mm): Reference 'R-v2-24'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(85.0482 mm, 77.3700 mm): Reference 'R-v1-14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(97.7082 mm, 123.0125 mm): Reference 'R-v2-30'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(99.2432 mm, 126.5000 mm): Reference 'D13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(96.2082 mm, 64.0125 mm): Reference 'R-v1-29'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(92.7932 mm, 67.5250 mm): Reference 'D9'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(58.2682 mm, 65.1250 mm): Reference 'R-v1-22'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(107.2682 mm, 126.5000 mm): Reference 'D18'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(51.1932 mm, 124.2000 mm): Reference 'R-v2-20'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(107.2682 mm, 67.5000 mm): Reference 'D18'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(99.2082 mm, 64.0125 mm): Reference 'R-v1-31'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.7600 mm, 15.4700 mm): Reference 'D2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(93.2082 mm, 64.0125 mm): Reference 'R-v1-27'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(114.4982 mm, 135.4700 mm): Reference 'D2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(102.2082 mm, 64.0125 mm): Reference 'R-v1-33'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(96.2082 mm, 123.0125 mm): Reference 'R-v2-29'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(91.1922 mm, 126.5250 mm): Reference 'D8'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(47.6932 mm, 65.1750 mm): Reference 'R-v1-18'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(70.9702 mm, 106.0940 mm): Reference 'C5'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(102.2082 mm, 123.0125 mm): Reference 'R-v2-33'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(59.5300 mm, 4.1250 mm): Reference 'R-v0-22'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(103.7082 mm, 123.0125 mm): Reference 'R-v2-34'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(87.2082 mm, 123.0125 mm): Reference 'R-v2-23'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(88.0430 mm, 16.0990 mm): Reference 'R-v0-16'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(92.4340 mm, 14.6140 mm): Reference 'U4'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(94.3932 mm, 126.5250 mm): Reference 'D10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(90.1782 mm, 64.0125 mm): Reference 'R-v1-25'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(61.0882 mm, 139.9700 mm): Reference 'R-v2-1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(103.7082 mm, 64.0125 mm): Reference 'R-v1-34'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(88.7082 mm, 64.0125 mm): Reference 'R-v1-24'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(105.3332 mm, 139.9700 mm): Reference 'C4'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(97.6282 mm, 126.5125 mm): Reference 'D12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(80.3682 mm, 95.1720 mm): Reference 'C3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(114.4982 mm, 74.9460 mm): Reference 'R-v1-3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(95.9932 mm, 67.5250 mm): Reference 'D11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 376.7269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 306.7269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 306.7269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 369.9969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 299.9969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 306.7269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 334.9969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 306.7269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 404.9969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 376.7269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 411.7269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 376.7269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 376.7269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 411.7269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 411.7269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(131.6482 mm, 93.2300 mm): Reference 'R-v1-6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(34.5482 mm, 149.5700 mm): Reference 'R-v2-12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 341.7269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 341.7269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(34.5482 mm, 90.5700 mm): Reference 'R-v1-12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 376.7269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 411.7269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 341.7269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 341.7269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 306.7269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 411.7269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(131.6482 mm, 152.2300 mm): Reference 'R-v2-6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 341.7269 mm): Reference 'R11'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 64.0125 mm): Reference 'R-v1-26'
+    @(91.0857 mm, 64.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(87.0482 mm, 76.2300 mm): Reference 'R-v1-16'
+    @(86.3029 mm, 76.7775 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(87.0482 mm, 76.2300 mm): Reference 'R-v1-16'
+    @(85.0482 mm, 77.3700 mm): Reference 'R-v1-14'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(80.3682 mm, 95.1720 mm): Reference 'C3'
+    @(79.9522 mm, 95.0257 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 64.0125 mm): Reference 'R-v1-26'
+    @(92.2282 mm, 65.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 64.0125 mm): Reference 'R-v1-26'
+    @(91.1922 mm, 67.5250 mm): Reference 'D8'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 64.0125 mm): Reference 'R-v1-26'
+    @(92.0982 mm, 68.3250 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 64.0125 mm): Reference 'R-v1-26'
+    @(92.1307 mm, 64.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(92.6157 mm, 64.2672 mm): Line on F.Silkscreen
+    @(93.2082 mm, 64.0125 mm): Reference 'R-v1-27'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.6607 mm, 64.2672 mm): Line on F.Silkscreen
+    @(93.2082 mm, 64.0125 mm): Reference 'R-v1-27'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 64.0125 mm): Reference 'R-v1-26'
+    @(92.0982 mm, 65.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.7082 mm, 64.0125 mm): Reference 'R-v1-28'
+    @(94.3932 mm, 67.5250 mm): Reference 'D10'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(62.3500 mm, 19.9700 mm): Reference 'R-v0-1'
+    @(60.8200 mm, 20.3100 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(125.5000 mm, 8.2700 mm): Reference 'R-v0-13'
+    @(124.9040 mm, 8.5120 mm): Reference 'J4'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(47.3000 mm, 7.5000 mm): Reference 'R-v0-18'
+    @(47.0025 mm, 3.9203 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(52.4550 mm, 4.2000 mm): Reference 'R-v0-20'
+    @(52.8000 mm, 0.9650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(55.9800 mm, 4.1750 mm): Reference 'R-v0-21'
+    @(53.8400 mm, 2.4350 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(55.9800 mm, 4.1750 mm): Reference 'R-v0-21'
+    @(56.3000 mm, 0.9650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(52.4550 mm, 4.2000 mm): Reference 'R-v0-20'
+    @(50.3400 mm, 2.4350 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(85.5430 mm, 16.6230 mm): Reference 'R-v0-11'
+    @(88.0430 mm, 16.0990 mm): Reference 'R-v0-16'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(57.7382 mm, 61.2700 mm): Reference 'D6'
+    @(58.2682 mm, 65.1250 mm): Reference 'R-v1-22'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(51.1932 mm, 65.2000 mm): Reference 'R-v1-20'
+    @(49.0782 mm, 63.4350 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(51.5382 mm, 61.9650 mm): Line on F.Silkscreen
+    @(51.1932 mm, 65.2000 mm): Reference 'R-v1-20'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(58.2682 mm, 65.1250 mm): Reference 'R-v1-22'
+    @(58.5382 mm, 61.9650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(52.5782 mm, 63.4350 mm): Line on F.Silkscreen
+    @(54.7182 mm, 65.1750 mm): Reference 'R-v1-21'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(55.0382 mm, 61.9650 mm): Line on F.Silkscreen
+    @(54.7182 mm, 65.1750 mm): Reference 'R-v1-21'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(70.7000 mm, -6.3300 mm): Reference 'R-v0-5'
+    @(64.9875 mm, -6.3300 mm): Reference 'R-v0-6'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(59.0000 mm, 0.2700 mm): Reference 'D6'
+    @(59.5300 mm, 4.1250 mm): Reference 'R-v0-22'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(59.8000 mm, 0.9650 mm): Line on F.Silkscreen
+    @(59.5300 mm, 4.1250 mm): Reference 'R-v0-22'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(81.6300 mm, 34.1720 mm): Reference 'C3'
+    @(81.2140 mm, 34.0257 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(113.3300 mm, 53.0375 mm): Reference 'R-v0-10'
+    @(113.3775 mm, 49.2453 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(115.3300 mm, 49.5000 mm): Reference 'R-v0-9'
+    @(115.3300 mm, 53.0375 mm): Reference 'C2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(124.2382 mm, 69.2700 mm): Reference 'R-v1-13'
+    @(123.6422 mm, 69.5120 mm): Reference 'J4'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(114.4982 mm, 76.4700 mm): Reference 'D2'
+    @(114.2435 mm, 75.8535 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(114.4982 mm, 76.4700 mm): Reference 'D2'
+    @(114.2435 mm, 76.8985 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(114.2382 mm, 75.3100 mm): Line on F.Silkscreen
+    @(114.4982 mm, 74.9460 mm): Reference 'R-v1-3'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(114.2382 mm, 75.3100 mm): Line on F.Silkscreen
+    @(114.4982 mm, 74.9460 mm): Reference 'R-v1-3'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(47.6932 mm, 124.1750 mm): Reference 'R-v2-18'
+    @(45.5782 mm, 122.4350 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(47.6932 mm, 124.1750 mm): Reference 'R-v2-18'
+    @(48.0382 mm, 120.9650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(47.6932 mm, 124.1750 mm): Reference 'R-v2-18'
+    @(47.2382 mm, 120.2700 mm): Reference 'D3'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.2082 mm, 123.0125 mm): Reference 'R-v2-27'
+    @(92.7932 mm, 126.5250 mm): Reference 'D9'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.2082 mm, 123.0125 mm): Reference 'R-v2-27'
+    @(93.6982 mm, 127.3250 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(92.7932 mm, 126.5250 mm): Reference 'D9'
+    @(92.2282 mm, 124.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 123.0125 mm): Reference 'R-v2-26'
+    @(91.1922 mm, 126.5250 mm): Reference 'D8'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 123.0125 mm): Reference 'R-v2-26'
+    @(92.2282 mm, 124.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 123.0125 mm): Reference 'R-v2-26'
+    @(92.0982 mm, 127.3250 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.8282 mm, 124.8650 mm): Line on F.Silkscreen
+    @(94.3932 mm, 126.5250 mm): Reference 'D10'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.6982 mm, 124.8650 mm): Line on F.Silkscreen
+    @(93.2082 mm, 123.0125 mm): Reference 'R-v2-27'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(95.9932 mm, 126.5250 mm): Reference 'D11'
+    @(96.2082 mm, 123.0125 mm): Reference 'R-v2-29'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(95.9932 mm, 126.5250 mm): Reference 'D11'
+    @(95.4632 mm, 124.8525 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.3932 mm, 126.5250 mm): Reference 'D10'
+    @(94.7082 mm, 123.0125 mm): Reference 'R-v2-28'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 123.0125 mm): Reference 'R-v2-26'
+    @(91.0857 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.7082 mm, 123.0125 mm): Reference 'R-v2-26'
+    @(92.1307 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(96.2082 mm, 123.0125 mm): Reference 'R-v2-29'
+    @(96.9332 mm, 124.8525 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(96.2082 mm, 123.0125 mm): Reference 'R-v2-29'
+    @(95.6157 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(97.6282 mm, 126.5125 mm): Reference 'D12'
+    @(97.0782 mm, 124.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(97.6282 mm, 126.5125 mm): Reference 'D12'
+    @(97.7082 mm, 123.0125 mm): Reference 'R-v2-30'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.2082 mm, 123.0125 mm): Reference 'R-v2-27'
+    @(92.6157 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.2082 mm, 123.0125 mm): Reference 'R-v2-27'
+    @(93.6607 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.7082 mm, 123.0125 mm): Reference 'R-v2-28'
+    @(95.2982 mm, 124.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.1157 mm, 123.2672 mm): Line on F.Silkscreen
+    @(94.7082 mm, 123.0125 mm): Reference 'R-v2-28'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.7082 mm, 123.0125 mm): Reference 'R-v2-28'
+    @(95.1607 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(97.7082 mm, 123.0125 mm): Reference 'R-v2-30'
+    @(97.0782 mm, 124.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(97.7082 mm, 123.0125 mm): Reference 'R-v2-30'
+    @(98.5482 mm, 124.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(96.2082 mm, 123.0125 mm): Reference 'R-v2-29'
+    @(96.6607 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(97.7082 mm, 123.0125 mm): Reference 'R-v2-30'
+    @(97.1157 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(70.9702 mm, 106.0940 mm): Reference 'C5'
+    @(70.9282 mm, 104.3100 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(51.1932 mm, 124.2000 mm): Reference 'R-v2-20'
+    @(49.0782 mm, 122.4350 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(58.2682 mm, 124.1250 mm): Reference 'R-v2-22'
+    @(58.5382 mm, 120.9650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(58.2682 mm, 124.1250 mm): Reference 'R-v2-22'
+    @(57.7382 mm, 120.2700 mm): Reference 'D6'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(51.5382 mm, 120.9650 mm): Line on F.Silkscreen
+    @(51.1932 mm, 124.2000 mm): Reference 'R-v2-20'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(52.5782 mm, 122.4350 mm): Line on F.Silkscreen
+    @(54.7182 mm, 124.1750 mm): Reference 'R-v2-21'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(55.0382 mm, 120.9650 mm): Line on F.Silkscreen
+    @(54.7182 mm, 124.1750 mm): Reference 'R-v2-21'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.7082 mm, 123.0125 mm): Reference 'R-v2-24'
+    @(88.1157 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.5932 mm, 126.5250 mm): Reference 'D7'
+    @(89.0272 mm, 124.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.5932 mm, 126.5250 mm): Reference 'D7'
+    @(88.7082 mm, 123.0125 mm): Reference 'R-v2-24'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.5932 mm, 126.5250 mm): Reference 'D7'
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.7082 mm, 123.0125 mm): Reference 'R-v2-24'
+    @(88.8982 mm, 127.3250 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.7082 mm, 123.0125 mm): Reference 'R-v2-24'
+    @(88.8982 mm, 124.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.7082 mm, 123.0125 mm): Reference 'R-v2-24'
+    @(89.0272 mm, 124.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(87.4282 mm, 124.8650 mm): Line on F.Silkscreen
+    @(87.2082 mm, 123.0125 mm): Reference 'R-v2-23'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(92.0982 mm, 124.8650 mm): Line on F.Silkscreen
+    @(91.7082 mm, 123.0125 mm): Reference 'R-v2-26'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+    @(90.4972 mm, 124.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(90.6282 mm, 124.8650 mm): Line on F.Silkscreen
+    @(91.1922 mm, 126.5250 mm): Reference 'D8'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(90.6282 mm, 124.8650 mm): Line on F.Silkscreen
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.1922 mm, 126.5250 mm): Reference 'D8'
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(90.4972 mm, 127.3250 mm): Line on F.Silkscreen
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.7082 mm, 123.0125 mm): Reference 'R-v2-24'
+    @(89.1607 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.6157 mm, 123.2672 mm): Line on F.Silkscreen
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(90.6607 mm, 123.2672 mm): Line on F.Silkscreen
+    @(90.1782 mm, 123.0125 mm): Reference 'R-v2-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.3000 mm, -2.3000 mm): Reference 'R-v0-24'
+    @(91.3000 mm, -4.9000 mm): Reference 'D8'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.9000 mm, -4.9000 mm): Reference 'D7'
+    @(89.9000 mm, -2.3000 mm): Reference 'R-v0-23'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(86.5700 mm, 1.4300 mm): Line on F.Silkscreen
+    @(88.9430 mm, 7.8470 mm): Reference 'R-v0-14'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.6900 mm, 4.8650 mm): Line on F.Silkscreen
+    @(88.9430 mm, 7.8470 mm): Reference 'R-v0-14'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.8900 mm, 4.8650 mm): Line on F.Silkscreen
+    @(88.9430 mm, 7.8470 mm): Reference 'R-v0-14'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.0430 mm, 16.0990 mm): Reference 'R-v0-16'
+    @(90.6133 mm, 15.6445 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.4250 mm, -2.3000 mm): Reference 'R-v0-32'
+    @(103.5000 mm, -5.3000 mm): Reference 'D16'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(105.1000 mm, -5.3000 mm): Reference 'D17'
+    @(104.9000 mm, -2.3000 mm): Reference 'R-v0-33'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(106.5000 mm, -5.3000 mm): Reference 'D18'
+    @(106.5000 mm, -2.3000 mm): Reference 'R-v0-34'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(98.9000 mm, -2.3000 mm): Reference 'R-v0-29'
+    @(98.9000 mm, -5.3000 mm): Reference 'D13'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(97.3000 mm, -5.3000 mm): Reference 'D12'
+    @(97.3000 mm, -2.3000 mm): Reference 'R-v0-28'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.3000 mm, -2.3000 mm): Reference 'R-v0-26'
+    @(94.3000 mm, -5.3000 mm): Reference 'D10'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(95.9000 mm, -2.3000 mm): Reference 'R-v0-27'
+    @(95.9000 mm, -5.3000 mm): Reference 'D11'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(92.9000 mm, -4.9000 mm): Reference 'D9'
+    @(92.7000 mm, -2.3000 mm): Reference 'R-v0-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(115.7600 mm, 13.9460 mm): Reference 'R-v0-3'
+    @(115.5000 mm, 14.3100 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(115.5053 mm, 14.8535 mm): Line on F.Silkscreen
+    @(115.7600 mm, 15.4700 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(115.5053 mm, 15.8985 mm): Line on F.Silkscreen
+    @(115.7600 mm, 15.4700 mm): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(115.7600 mm, 13.9460 mm): Reference 'R-v0-3'
+    @(115.5000 mm, 14.3100 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.5000 mm, -5.3000 mm): Reference 'D14'
+    @(100.5000 mm, -2.3000 mm): Reference 'R-v0-30'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(101.9000 mm, -5.3000 mm): Reference 'D15'
+    @(101.9000 mm, -2.3000 mm): Reference 'R-v0-31'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.4432 mm, 126.5000 mm): Reference 'D15'
+    @(101.8782 mm, 124.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.2082 mm, 123.0125 mm): Reference 'R-v2-33'
+    @(102.4432 mm, 126.5000 mm): Reference 'D15'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.2082 mm, 123.0125 mm): Reference 'R-v2-33'
+    @(101.8782 mm, 124.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(104.0432 mm, 126.5000 mm): Reference 'D16'
+    @(103.4782 mm, 124.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.7082 mm, 123.0125 mm): Reference 'R-v2-34'
+    @(103.3482 mm, 127.3000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.7082 mm, 123.0125 mm): Reference 'R-v2-34'
+    @(103.4782 mm, 124.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(104.0432 mm, 126.5000 mm): Reference 'D16'
+    @(103.7082 mm, 123.0125 mm): Reference 'R-v2-34'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(104.9482 mm, 124.8400 mm): Line on F.Silkscreen
+    @(103.7082 mm, 123.0125 mm): Reference 'R-v2-34'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.3482 mm, 124.8400 mm): Line on F.Silkscreen
+    @(102.2082 mm, 123.0125 mm): Reference 'R-v2-33'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(105.6432 mm, 126.5000 mm): Reference 'D17'
+    @(105.1032 mm, 124.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(101.7482 mm, 124.8400 mm): Line on F.Silkscreen
+    @(100.7082 mm, 123.0125 mm): Reference 'R-v2-32'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.2782 mm, 124.8400 mm): Line on F.Silkscreen
+    @(100.8432 mm, 126.5000 mm): Reference 'D14'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.2782 mm, 124.8400 mm): Line on F.Silkscreen
+    @(100.7082 mm, 123.0125 mm): Reference 'R-v2-32'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(101.7482 mm, 127.3000 mm): Line on F.Silkscreen
+    @(102.2082 mm, 123.0125 mm): Reference 'R-v2-33'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.8432 mm, 126.5000 mm): Reference 'D14'
+    @(100.7082 mm, 123.0125 mm): Reference 'R-v2-32'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.1482 mm, 124.8400 mm): Line on F.Silkscreen
+    @(99.2082 mm, 123.0125 mm): Reference 'R-v2-31'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(98.6782 mm, 124.8400 mm): Line on F.Silkscreen
+    @(99.2082 mm, 123.0125 mm): Reference 'R-v2-31'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(98.6782 mm, 124.8400 mm): Line on F.Silkscreen
+    @(99.2432 mm, 126.5000 mm): Reference 'D13'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.1482 mm, 127.3000 mm): Line on F.Silkscreen
+    @(100.8432 mm, 126.5000 mm): Reference 'D14'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.1482 mm, 127.3000 mm): Line on F.Silkscreen
+    @(100.7082 mm, 123.0125 mm): Reference 'R-v2-32'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.2082 mm, 123.0125 mm): Reference 'R-v2-31'
+    @(99.2432 mm, 126.5000 mm): Reference 'D13'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.2082 mm, 123.0125 mm): Reference 'R-v2-31'
+    @(98.5482 mm, 127.3000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.2082 mm, 123.0125 mm): Reference 'R-v2-31'
+    @(98.6157 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(98.1607 mm, 123.2672 mm): Line on F.Silkscreen
+    @(97.7082 mm, 123.0125 mm): Reference 'R-v2-30'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.1157 mm, 123.2672 mm): Line on F.Silkscreen
+    @(100.7082 mm, 123.0125 mm): Reference 'R-v2-32'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.6607 mm, 123.2672 mm): Line on F.Silkscreen
+    @(99.2082 mm, 123.0125 mm): Reference 'R-v2-31'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.7082 mm, 123.0125 mm): Reference 'R-v2-32'
+    @(101.1607 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.6607 mm, 123.2672 mm): Line on F.Silkscreen
+    @(102.2082 mm, 123.0125 mm): Reference 'R-v2-33'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.2082 mm, 123.0125 mm): Reference 'R-v2-33'
+    @(101.6157 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(114.0682 mm, 110.5000 mm): Reference 'R-v1-9'
+    @(114.0682 mm, 114.0375 mm): Reference 'C2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(112.1282 mm, 113.8912 mm): Line on F.Silkscreen
+    @(112.0682 mm, 114.0375 mm): Reference 'R-v1-10'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(104.1607 mm, 123.2672 mm): Line on F.Silkscreen
+    @(103.7082 mm, 123.0125 mm): Reference 'R-v2-34'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.7082 mm, 123.0125 mm): Reference 'R-v2-34'
+    @(103.1157 mm, 123.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(112.1157 mm, 110.2453 mm): Line on F.Silkscreen
+    @(112.0682 mm, 114.0375 mm): Reference 'R-v1-10'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(124.2382 mm, 128.2700 mm): Reference 'R-v2-13'
+    @(123.6422 mm, 128.5120 mm): Reference 'J4'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.4432 mm, 67.5000 mm): Reference 'D15'
+    @(101.8782 mm, 65.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.2082 mm, 64.0125 mm): Reference 'R-v1-33'
+    @(101.7482 mm, 68.3000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.2082 mm, 64.0125 mm): Reference 'R-v1-33'
+    @(101.8782 mm, 65.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.4432 mm, 67.5000 mm): Reference 'D15'
+    @(102.2082 mm, 64.0125 mm): Reference 'R-v1-33'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.2082 mm, 64.0125 mm): Reference 'R-v1-33'
+    @(103.3482 mm, 65.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.7082 mm, 64.0125 mm): Reference 'R-v1-32'
+    @(100.2782 mm, 65.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.7082 mm, 64.0125 mm): Reference 'R-v1-32'
+    @(100.8432 mm, 67.5000 mm): Reference 'D14'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(101.7482 mm, 65.8400 mm): Line on F.Silkscreen
+    @(100.7082 mm, 64.0125 mm): Reference 'R-v1-32'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.7082 mm, 64.0125 mm): Reference 'R-v1-32'
+    @(101.1607 mm, 64.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.7082 mm, 64.0125 mm): Reference 'R-v1-32'
+    @(100.1157 mm, 64.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(101.6157 mm, 64.2672 mm): Line on F.Silkscreen
+    @(102.2082 mm, 64.0125 mm): Reference 'R-v1-33'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.6607 mm, 64.2672 mm): Line on F.Silkscreen
+    @(102.2082 mm, 64.0125 mm): Reference 'R-v1-33'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.6607 mm, 64.2672 mm): Line on F.Silkscreen
+    @(99.2082 mm, 64.0125 mm): Reference 'R-v1-31'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.2782 mm, 65.8400 mm): Line on F.Silkscreen
+    @(100.8432 mm, 67.5000 mm): Reference 'D14'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.7082 mm, 64.0125 mm): Reference 'R-v1-32'
+    @(100.1482 mm, 68.3000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(100.8432 mm, 67.5000 mm): Reference 'D14'
+    @(100.1482 mm, 68.3000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(96.6607 mm, 64.2672 mm): Line on F.Silkscreen
+    @(96.2082 mm, 64.0125 mm): Reference 'R-v1-29'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(97.1157 mm, 64.2672 mm): Line on F.Silkscreen
+    @(97.7082 mm, 64.0125 mm): Reference 'R-v1-30'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(98.1607 mm, 64.2672 mm): Line on F.Silkscreen
+    @(97.7082 mm, 64.0125 mm): Reference 'R-v1-30'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.2082 mm, 64.0125 mm): Reference 'R-v1-31'
+    @(99.2432 mm, 67.5000 mm): Reference 'D13'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.2082 mm, 64.0125 mm): Reference 'R-v1-31'
+    @(98.6782 mm, 65.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.2082 mm, 64.0125 mm): Reference 'R-v1-31'
+    @(98.5482 mm, 68.3000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.2082 mm, 64.0125 mm): Reference 'R-v1-31'
+    @(100.1482 mm, 65.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(99.2082 mm, 64.0125 mm): Reference 'R-v1-31'
+    @(98.6157 mm, 64.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.7082 mm, 64.0125 mm): Reference 'R-v1-28'
+    @(95.2982 mm, 65.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.6982 mm, 65.8650 mm): Line on F.Silkscreen
+    @(93.2082 mm, 64.0125 mm): Reference 'R-v1-27'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.1157 mm, 64.2672 mm): Line on F.Silkscreen
+    @(88.7082 mm, 64.0125 mm): Reference 'R-v1-24'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.7082 mm, 64.0125 mm): Reference 'R-v1-28'
+    @(95.1607 mm, 64.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(94.7082 mm, 64.0125 mm): Reference 'R-v1-28'
+    @(94.1157 mm, 64.2672 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(95.6157 mm, 64.2672 mm): Line on F.Silkscreen
+    @(96.2082 mm, 64.0125 mm): Reference 'R-v1-29'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(87.2082 mm, 64.0125 mm): Reference 'R-v1-23'
+    @(87.4282 mm, 65.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.1607 mm, 64.2672 mm): Line on F.Silkscreen
+    @(88.7082 mm, 64.0125 mm): Reference 'R-v1-24'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.1922 mm, 67.5250 mm): Reference 'D8'
+    @(90.6282 mm, 65.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(91.1922 mm, 67.5250 mm): Reference 'D8'
+    @(90.1782 mm, 64.0125 mm): Reference 'R-v1-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(90.4972 mm, 65.8650 mm): Line on F.Silkscreen
+    @(90.1782 mm, 64.0125 mm): Reference 'R-v1-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.8982 mm, 65.8650 mm): Line on F.Silkscreen
+    @(88.7082 mm, 64.0125 mm): Reference 'R-v1-24'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.5932 mm, 67.5250 mm): Reference 'D7'
+    @(89.0272 mm, 65.8650 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.0272 mm, 65.8650 mm): Line on F.Silkscreen
+    @(88.7082 mm, 64.0125 mm): Reference 'R-v1-24'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(90.4972 mm, 68.3250 mm): Line on F.Silkscreen
+    @(90.1782 mm, 64.0125 mm): Reference 'R-v1-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.5932 mm, 67.5250 mm): Reference 'D7'
+    @(88.7082 mm, 64.0125 mm): Reference 'R-v1-24'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(89.5932 mm, 67.5250 mm): Reference 'D7'
+    @(90.1782 mm, 64.0125 mm): Reference 'R-v1-25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(88.8982 mm, 68.3250 mm): Line on F.Silkscreen
+    @(88.7082 mm, 64.0125 mm): Reference 'R-v1-24'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(92.2282 mm, 65.8650 mm): Line on F.Silkscreen
+    @(92.7932 mm, 67.5250 mm): Reference 'D9'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(93.6982 mm, 68.3250 mm): Line on F.Silkscreen
+    @(93.2082 mm, 64.0125 mm): Reference 'R-v1-27'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.7082 mm, 64.0125 mm): Reference 'R-v1-34'
+    @(103.3482 mm, 68.3000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(105.6432 mm, 67.5000 mm): Reference 'D17'
+    @(105.1032 mm, 65.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(104.9482 mm, 65.8400 mm): Line on F.Silkscreen
+    @(103.7082 mm, 64.0125 mm): Reference 'R-v1-34'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.7082 mm, 64.0125 mm): Reference 'R-v1-34'
+    @(103.4782 mm, 65.8400 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.7082 mm, 64.0125 mm): Reference 'R-v1-34'
+    @(104.0432 mm, 67.5000 mm): Reference 'D16'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.4782 mm, 65.8400 mm): Line on F.Silkscreen
+    @(104.0432 mm, 67.5000 mm): Reference 'D16'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(103.1157 mm, 64.2672 mm): Line on F.Silkscreen
+    @(103.7082 mm, 64.0125 mm): Reference 'R-v1-34'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(104.1607 mm, 64.2672 mm): Line on F.Silkscreen
+    @(103.7082 mm, 64.0125 mm): Reference 'R-v1-34'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.0782 mm, 76.7000 mm): Reference 'SW1'
+    @(101.9322 mm, 75.6140 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(102.0782 mm, 76.7000 mm): Reference 'SW1'
+    @(101.9322 mm, 77.9240 mm): Line on F.Silkscreen
+
+** Found 6 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(78.8500 mm, 28.5000 mm): Pad 9 [GND-v0-] of U5 on F.Cu
+    @(77.5500 mm, 28.5000 mm): Pad 7 [GND-v0-] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(73.6500 mm, 28.5000 mm): Pad 1 [GND-v0-] of U5 on F.Cu
+    @(76.9000 mm, 28.5000 mm): Pad 6 [GND-v0-] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(69.7875 mm, -4.9000 mm): Pad 1 [Glob_Alim-v0-] of R-v0-5 on F.Cu
+    @(64.0750 mm, -4.9000 mm): Pad 1 [Glob_Alim-v0-] of R-v0-6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(69.7875 mm, -4.9000 mm): Pad 1 [Glob_Alim-v0-] of R-v0-5 on F.Cu
+    @(78.7510 mm, 1.5850 mm): Track [Glob_Alim-v0-] on B.Cu, length 5.3140 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(71.6125 mm, -4.9000 mm): Pad 2 [GPIO_EX_CL-v0-K] of R-v0-5 on F.Cu
+    @(74.3000 mm, 28.5000 mm): Pad 2 [GPIO_EX_CL-v0-K] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(75.6000 mm, 28.5000 mm): Pad 4 [GPIO_EX_SER-v0-IAL-v0-_DATA] of U5 on F.Cu
+    @(65.9000 mm, -4.9000 mm): Pad 2 [GPIO_EX_SER-v0-IAL-v0-_DATA] of R-v0-6 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

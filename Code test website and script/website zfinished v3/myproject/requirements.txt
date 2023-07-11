@@ -1,0 +1,4 @@
+django-cas==2.0.3
+django-cas-ng==4.3.0
+django-multiupload==0.6.1
+celery==5.3.1

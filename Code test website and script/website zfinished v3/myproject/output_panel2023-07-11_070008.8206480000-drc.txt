@@ -1,0 +1,556 @@
+** Drc report for /tmp/tmp622351yu/output_panel2023-07-11_070008.8206480000.kicad_pcb **
+** Created on 2023-07-11 09:00:26 **
+
+** Found 165 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(406.9998 mm, 96.9969 mm): Zone [GND-v27-] on F.Cu
+    @(415.9311 mm, 118.1969 mm): Pad 2 [GND-v27-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(406.9998 mm, 96.9969 mm): Zone [GND-v27-] on F.Cu
+    @(426.4198 mm, 101.1544 mm): Pad 2 [GND-v27-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 446.9969 mm): Zone [GND-v19-] on F.Cu
+    @(129.9498 mm, 457.4569 mm): Pad 11 [GND-v19-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 306.9969 mm): Zone [GND-v15-] on F.Cu
+    @(114.4198 mm, 311.1544 mm): Pad 2 [GND-v15-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 271.9969 mm): Zone [GND-v14-] on F.Cu
+    @(114.4198 mm, 276.1544 mm): Pad 2 [GND-v14-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(406.9998 mm, 96.9969 mm): Zone [GND-v27-] on F.Cu
+    @(441.9498 mm, 107.4569 mm): Pad 11 [GND-v27-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(250.9998 mm, 96.9969 mm): Zone [GND-v23-] on F.Cu
+    @(285.9498 mm, 107.4569 mm): Pad 11 [GND-v23-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 166.9969 mm): Zone [GND-v11-] on F.Cu
+    @(103.9311 mm, 188.1969 mm): Pad 2 [GND-v11-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(250.9998 mm, 96.9969 mm): Zone [GND-v23-] on F.Cu
+    @(259.9311 mm, 118.1969 mm): Pad 2 [GND-v23-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(367.9998 mm, 96.9969 mm): Zone [GND-v26-] on F.Cu
+    @(387.4198 mm, 101.1544 mm): Pad 2 [GND-v26-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 446.9969 mm): Zone [GND-v19-] on F.Cu
+    @(114.4198 mm, 451.1544 mm): Pad 2 [GND-v19-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(250.9998 mm, 96.9969 mm): Zone [GND-v23-] on F.Cu
+    @(270.4198 mm, 101.1544 mm): Pad 2 [GND-v23-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(289.9998 mm, 96.9969 mm): Zone [GND-v24-] on F.Cu
+    @(309.4198 mm, 101.1544 mm): Pad 2 [GND-v24-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 306.9969 mm): Zone [GND-v15-] on F.Cu
+    @(103.9311 mm, 328.1969 mm): Pad 2 [GND-v15-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 446.9969 mm): Zone [GND-v19-] on F.Cu
+    @(103.9311 mm, 468.1969 mm): Pad 2 [GND-v19-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 306.9969 mm): Zone [GND-v15-] on F.Cu
+    @(129.9498 mm, 317.4569 mm): Pad 11 [GND-v15-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(367.9998 mm, 96.9969 mm): Zone [GND-v26-] on F.Cu
+    @(402.9498 mm, 107.4569 mm): Pad 11 [GND-v26-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(367.9998 mm, 96.9969 mm): Zone [GND-v26-] on F.Cu
+    @(376.9311 mm, 118.1969 mm): Pad 2 [GND-v26-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 341.9969 mm): Zone [GND-v16-] on F.Cu
+    @(129.9498 mm, 352.4569 mm): Pad 11 [GND-v16-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(289.9998 mm, 96.9969 mm): Zone [GND-v24-] on F.Cu
+    @(324.9498 mm, 107.4569 mm): Pad 11 [GND-v24-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 201.9969 mm): Zone [GND-v12-] on F.Cu
+    @(103.9311 mm, 223.1969 mm): Pad 2 [GND-v12-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(133.9998 mm, 96.9969 mm): Zone [GND-v20-] on F.Cu
+    @(168.9498 mm, 107.4569 mm): Pad 11 [GND-v20-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(289.9998 mm, 96.9969 mm): Zone [GND-v24-] on F.Cu
+    @(298.9311 mm, 118.1969 mm): Pad 2 [GND-v24-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 341.9969 mm): Zone [GND-v16-] on F.Cu
+    @(103.9311 mm, 363.1969 mm): Pad 2 [GND-v16-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 341.9969 mm): Zone [GND-v16-] on F.Cu
+    @(114.4198 mm, 346.1544 mm): Pad 2 [GND-v16-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(133.9998 mm, 96.9969 mm): Zone [GND-v20-] on F.Cu
+    @(142.9311 mm, 118.1969 mm): Pad 2 [GND-v20-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 131.9969 mm): Zone [GND-v10-] on F.Cu
+    @(103.9311 mm, 153.1969 mm): Pad 2 [GND-v10-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(172.9998 mm, 96.9969 mm): Zone [GND-v21-] on F.Cu
+    @(181.9311 mm, 118.1969 mm): Pad 2 [GND-v21-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(172.9998 mm, 96.9969 mm): Zone [GND-v21-] on F.Cu
+    @(192.4198 mm, 101.1544 mm): Pad 2 [GND-v21-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 271.9969 mm): Zone [GND-v14-] on F.Cu
+    @(103.9311 mm, 293.1969 mm): Pad 2 [GND-v14-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(328.9998 mm, 96.9969 mm): Zone [GND-v25-] on F.Cu
+    @(348.4198 mm, 101.1544 mm): Pad 2 [GND-v25-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(211.9998 mm, 96.9969 mm): Zone [GND-v22-] on F.Cu
+    @(220.9311 mm, 118.1969 mm): Pad 2 [GND-v22-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(172.9998 mm, 96.9969 mm): Zone [GND-v21-] on F.Cu
+    @(207.9498 mm, 107.4569 mm): Pad 11 [GND-v21-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 201.9969 mm): Zone [GND-v12-] on F.Cu
+    @(114.4198 mm, 206.1544 mm): Pad 2 [GND-v12-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(133.9998 mm, 96.9969 mm): Zone [GND-v20-] on F.Cu
+    @(153.4198 mm, 101.1544 mm): Pad 2 [GND-v20-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 411.9969 mm): Zone [GND-v18-] on F.Cu
+    @(114.4198 mm, 416.1544 mm): Pad 2 [GND-v18-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 166.9969 mm): Zone [GND-v11-] on F.Cu
+    @(114.4198 mm, 171.1544 mm): Pad 2 [GND-v11-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(211.9998 mm, 96.9969 mm): Zone [GND-v22-] on F.Cu
+    @(231.4198 mm, 101.1544 mm): Pad 2 [GND-v22-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(328.9998 mm, 96.9969 mm): Zone [GND-v25-] on F.Cu
+    @(337.9311 mm, 118.1969 mm): Pad 2 [GND-v25-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 411.9969 mm): Zone [GND-v18-] on F.Cu
+    @(129.9498 mm, 422.4569 mm): Pad 11 [GND-v18-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 376.9969 mm): Zone [GND-v17-] on F.Cu
+    @(129.9498 mm, 387.4569 mm): Pad 11 [GND-v17-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(211.9998 mm, 96.9969 mm): Zone [GND-v22-] on F.Cu
+    @(246.9498 mm, 107.4569 mm): Pad 11 [GND-v22-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 411.9969 mm): Zone [GND-v18-] on F.Cu
+    @(103.9311 mm, 433.1969 mm): Pad 2 [GND-v18-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 96.9969 mm): Zone [GND-v9-] on F.Cu
+    @(114.4198 mm, 101.1544 mm): Pad 2 [GND-v9-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 376.9969 mm): Zone [GND-v17-] on F.Cu
+    @(114.4198 mm, 381.1544 mm): Pad 2 [GND-v17-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(328.9998 mm, 96.9969 mm): Zone [GND-v25-] on F.Cu
+    @(363.9498 mm, 107.4569 mm): Pad 11 [GND-v25-] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 376.9969 mm): Zone [GND-v17-] on F.Cu
+    @(103.9311 mm, 398.1969 mm): Pad 2 [GND-v17-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 236.9969 mm): Zone [GND-v13-] on F.Cu
+    @(114.4198 mm, 241.1544 mm): Pad 2 [GND-v13-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 131.9969 mm): Zone [GND-v10-] on F.Cu
+    @(114.4198 mm, 136.1544 mm): Pad 2 [GND-v10-] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 236.9969 mm): Zone [GND-v13-] on F.Cu
+    @(103.9311 mm, 258.1969 mm): Pad 2 [GND-v13-] of R1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(94.9998 mm, 96.9969 mm): Zone [GND-v9-] on F.Cu
+    @(103.9311 mm, 118.1969 mm): Pad 2 [GND-v9-] of R1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(395.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(196.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 162.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 260.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 337.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(306.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 190.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 372.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 232.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(193.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 470.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(377.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 232.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 477.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 302.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 337.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(147.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(150.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(303.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 197.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 337.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 442.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 330.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(313.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(186.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 302.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 232.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(420.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 295.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 442.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(271.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(267.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 302.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(342.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 162.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 162.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 407.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(338.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 337.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(154.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 365.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 435.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 267.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 407.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(430.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(310.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 442.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 477.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 407.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 267.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(427.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(182.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(200.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 372.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(381.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(221.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(384.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 232.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(235.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 372.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 442.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 162.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 477.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 372.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 407.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(239.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(232.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(274.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(225.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 155.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 197.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(260.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 225.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 400.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 197.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 197.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 232.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(388.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(278.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 267.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 477.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 407.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(115.2998 mm, 477.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(356.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.7498 mm, 162.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(345.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(423.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(416.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 197.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 337.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(317.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(143.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 267.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(264.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 302.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(157.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(189.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 267.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(434.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 442.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(228.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(352.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(299.9498 mm, 127.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(108.3998 mm, 127.5269 mm): Reference 'R11'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(391.7498 mm, 127.5269 mm): Reference 'R14'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(111.8498 mm, 127.5269 mm): Reference 'R12'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(349.2998 mm, 127.5269 mm): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(161.1498 mm, 120.7969 mm): Reference 'C6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 372.5269 mm): Reference 'R10'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(104.9498 mm, 302.5269 mm): Reference 'R10'
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

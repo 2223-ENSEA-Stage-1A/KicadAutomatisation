@@ -1,0 +1,40 @@
+kibot:
+  version: 1
+
+preflight:
+
+  run_drc: False # Don't run the DRC 
+  run_erc: False # Don't run the ERC 
+
+outputs:
+
+  - name: 'panelize_example'
+    comment: 'Creates a panel to fabricate various copies of the PCB at once.'
+    type: 'panelize'
+    dir: 'Example/panelize_dir'
+    options:
+      # [list(dict)|list(string)|string] One or more configurations used to create the panel.
+      # Use a string to include an external configuration, i.e. `myDefault.json`.
+      # You can also include a preset using `:name`, i.e. `:vcuts`.
+      # Use a dict to specify the options using the KiBot YAML file
+      configs:
+        # [dict] Fill non-board areas of the panel with copper
+        - copperfill:
+            # [number|string] Extra clearance from the board perimeters. Suitable for, e.g., not filling the tabs with
+            # copper
+            clearance: 0.5
+            # [string|list(string)] List of layers to fill. Can be a comma-separated string.
+            # Using *all* means all external copper layers
+            layers: 'F.Cu,B.Cu'
+            # [number|string] The orientation of the hatched strokes
+            orientation: 45
+            # [number|string] The space between the hatched strokes
+            spacing: 1
+            # [string='none'] [none,solid,hatched] How to fill non-board areas of the panel with copper
+            type: 'none'
+            # [number|string] The width of the hatched strokes
+            width: 1
+          # [dict] Specify how to perform the cuts on the tabs separating the board
+          layout:
+            cols: 5
+            rows: 5

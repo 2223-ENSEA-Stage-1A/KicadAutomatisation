@@ -1,0 +1,100 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PCB Analysis Information</title>
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/gerber_result.css' %}">
+    {% include 'header.html' %}
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">PCB Analysis Information</h1>
+
+        {% if doAble %}
+            <h3>PCB Category: {{ pcbCat }}</h3>
+            {% if drc_warning or drc_error%}
+                <h2>DRC Results:</h2>
+                {% if drc_warning %}
+                    <h3 class="text-warning">Warnings:</h3>
+                    <ul class="list-unstyled">
+                        {% for warning in drc_warnings %}
+                            <li>{{ warning }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+                {% if drc_error %}
+                    <h3 class="text-danger">Errors:</h3>
+                    <ul class="list-unstyled">
+                        {% for error in drc_errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            
+            {% else %}
+            <h2>No DRC Results</h2>    
+            <h3>Meaning that there is neither errors nor warnings, or the DRC test failed to start</h3>  
+            {% endif %}
+
+            
+            {% if erc_warning or erc_error%}
+            <h2>ERC Results:</h2>
+                {% if erc_warning %}
+                    <h3 class="text-warning">Warnings:</h3>
+                    <ul class="list-unstyled">
+                        {% for warning in erc_warnings %}
+                            <li>{{ warning }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+                {% if erc_error %}
+                    <h3 class="text-danger">Errors:</h3>
+                    <ul class="list-unstyled">
+                        {% for error in erc_errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% else %}
+            <h2>No ERC Results</h2>    
+            <h3>Meaning that there is neither errors nor warnings, or the ERC test failed to start</h3>  
+            {% endif %}
+        {% else %}
+            <p>Not able to perform the operation.</p>
+        {% endif %}
+    </div>
+    <div class="container mt-4">
+
+        
+        <p>Not Selecting all Errors types below will result in your project unavailable for production</p>
+        <p>Select Error types you are okay with ignoring:</p>
+
+        <!-- Display error messages -->
+        {% if messages %}
+            <ul class="messages">
+            {% for message in messages %}
+                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+                {{ message.message }}
+                </li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    
+
+        <!-- Include the form -->
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Submit">
+        </form>
+
+        <p>Some errors are not authorized to be ignored, submit the form without selecting them. You will have to open a ticket if you believe that those errors can be ignored in your case.</p>
+        <p>An example of errors that are normaly not allowed but that can be allowed nonetheless are track_dangling errors from custom made antenna on the pcb.</p>
+    </div>
+</body>
+</html>

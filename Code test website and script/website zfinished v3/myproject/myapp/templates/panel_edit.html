@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Panel File</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/panel_edit.css' %}">
+  {% include 'header.html' %}
+</head>
+<body>
+  <div class="panel-file-details">
+    <h1 class="form-heading">Edit Panel File</h1>
+    <div class="form-field">
+      <label>User:</label>
+      <span>{{ panel_file.user }}</span>
+    </div>
+    <div class="form-field">
+      <label>Kicad pcb from Panel:</label>
+      {% if panel_file.kicad_pcb %}
+        <a href="{% url 'view_file' file_id=panel_file.id file_type='kicad_pcb_file_panel' %}" target="_blank" class="file-link">{{ panel_file.kicad_pcb.name }}</a>
+      {% else %}
+        <span class="no-file">No file uploaded</span>
+      {% endif %}
+    </div>
+    <div class="form-field">
+      <label>ID:</label>
+      <span>{{ panel_file.id }}</span>
+    </div>
+    <div class="form-field">
+      <label>Description:</label>
+      <span>{{ panel_file.description }}</span>
+    </div>
+    <div class="form-field">
+      <label>Projects and Amount:</label>
+      <span>{{ panel_file.result_files.filename }} : {{ panel_file.amounts.values }}</span>
+    </div>
+  </div>
+  <div class="form-container">
+    <h2 class="form-heading">Upload New File</h2>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.non_field_errors }}
+      <div class="form-field">
+        <label for="id_result_files">Panel name:</label>
+        {{ form.filename }}
+      </div>
+      <div class="form-field">
+        <label for="id_result_files">Result Files:</label>
+        {{ form.result_files }}
+      </div>
+      <div class="form-field">
+        <label for="id_description">Description:</label>
+        {{ form.description }}
+      </div>
+      <button type="submit" class="btn-submit">Upload</button>
+    </form>
+  </div>
+</body>
+</html>
