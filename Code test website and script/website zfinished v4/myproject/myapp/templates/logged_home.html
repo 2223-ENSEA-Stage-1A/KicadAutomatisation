@@ -1,0 +1,25 @@
+{% extends 'header.html' %}
+
+{% block content %}
+
+
+<div class="container_mp0 description">
+    <div class="border_description">
+      <p> Menu to Deposit Project </p>
+    </div>
+  </div>
+
+<div class="container_file bg-1 formatform">
+    <h1>Project Deposit Form</h1>
+    <form class="container_mp0" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="container_mp0 container_centre " >
+        <button class="btn_myfile conteneur_centre " type="submit">Submit</button>
+    </div>
+    </form>
+</div>
+
+
+{% endblock%}
+

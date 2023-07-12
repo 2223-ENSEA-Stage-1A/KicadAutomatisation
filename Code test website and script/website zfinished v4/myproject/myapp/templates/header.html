@@ -1,0 +1,61 @@
+{% load static %}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/0Responsive_Main.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/0Responsive_Header.css' %}">
+
+<header class="NavHeader" > {# py-4 #}
+  <nav class="Nav">
+
+    <ul class="ulcache">
+      <li>
+        <a class="LOGO" href="https://intranet.ensea.fr/">
+          {#<img src="ENSEA.png" alt="Logo ENSEA">#}
+        </a>
+      </li>
+      <li class="liMenuTel">
+        <label class="MenuTel" for="mobile">Menu</label>
+        <input class="MenuInput" type="checkbox" id="mobile" role="button">
+
+        <ul class="ulMenu">
+
+          {% if user.is_authenticated %}
+            <li class="liMenu">
+              <a class="Menu" onclick="window.location.href='{% url 'logged_home' %}'">PCB Utilities</a>
+            </li>
+            {% if user.is_staff %}
+              <li class="liMenu">
+                <a class="Menu" onclick="window.location.href='{% url 'panelizer_kicad' %}'">Kicad Panelizer</a>
+              </li>
+            {% endif %}
+            <li class="liMenu">
+              <a class="Menu" onclick="window.location.href='{% url 'user_panels' %}'">My Panels</a>
+            </li>
+            <li class="liMenu">
+              <a class="Menu" onclick="window.location.href='{% url 'user_files' %}'">My Files</a>
+            </li>
+            <li class="liMenu">
+              <a class="Menu" onclick="window.location.href='{% url 'ticket_list' %}'">Tickets</a>
+            </li>
+            <li class="liMenu">
+              <a class="Menu" onclick="window.location.href='{% url 'cas_ng_logout' %}'">Logout</a>
+            </li>
+          {% else %}
+            <li class="liMenu">
+              <a class="Menu" onclick="window.location.href='{% url 'cas_ng_login' %}'">Login</a>
+            </li>
+          {% endif %}
+
+        </ul>
+      </li>
+    </ul>
+
+  </nav>
+</header>
+
+<main>
+  <div class=" page-mp "> {# container-fluid my-0 p-0 mt-4 #}
+  {% block content %}{% endblock %} 
+  </div>
+</main>

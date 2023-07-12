@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Script Progress</title>
+</head>
+<body>
+    <h1>Script Progress</h1>
+    <p>Progress: <span id="progress"></span>%</p>
+
+    <script>
+        function checkProgress() {
+            // Make an AJAX request to fetch the progress value
+            // Replace 'progress_url' with the actual URL endpoint to fetch the progress
+            fetch('get_progress')
+            .then(response => response.json())
+            .then(data => {
+                const progress = data.progress; // Assuming the progress value is returned as 'progress'
+                const redirectUrl = data.redirect_url; // Assuming the redirect URL is returned as 'redirect_url'
+                
+                // Update the progress value in the HTML template
+                document.getElementById('progress').textContent = progress;
+
+                // Check if progress reaches 100%
+                if (progress === 100) {
+                    // Redirect to the desired page
+                    window.location.href = redirectUrl; // Replace 'redirectUrl' with the actual URL to redirect to
+                } else {
+                    // Check the progress again after a certain interval
+                    setTimeout(checkProgress, 5000); // Check every 0.1 second (adjust the interval as needed)
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        // Call the checkProgress function when the page loads
+        document.addEventListener('DOMContentLoaded', checkProgress);
+    </script>
+</body>
+</html>

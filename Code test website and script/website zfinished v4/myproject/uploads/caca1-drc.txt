@@ -1,0 +1,10 @@
+** Drc report for /home/heimdall/projet/website2/myproject/ProjectToProcess/jerefleu12 2023-07-12 12:08:49.573119/caca1.kicad_pcb **
+** Created on 2023-07-12 14:08:50 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,29 @@
+{% extends 'header.html' %}
+
+{% block content %}
+
+{%comment%}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/homepage.css' %}">
+</head>
+{%endcomment%}
+
+
+
+<body>
+  <div class="container">
+    <h1>Welcome to ENSEA PCB Utilities</h1>
+    <p>You will be able to submit your pcb to manufacturing.</p>
+    <a class="btn_myfile"href="{% url 'login' %}" class="button">Login</a>
+  </div>
+</body>
+</html>
+
+{% endblock%}
+
