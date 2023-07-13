@@ -1,0 +1,260 @@
+:root {
+  --NavBg: white;
+  --NavBgMenu: rgb(250,250,250);
+  --NavColor:#c40452;
+
+  --Navheight: 4em;
+  /*: #c40452;
+  --color-3: #a40442;
+  --color-4: #dc7c9c;
+  */
+}
+
+*,*::before,*::after {
+  padding :0;
+  margin:0;
+  color: inherit;
+  text-decoration: none;
+  box-sizing:border-box;
+  font-family:arial, sans-serif;
+  font:2em;
+  background:none;
+}
+li, ul{
+  z-index:0;
+}
+/*
+.Menu.liMenu{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+*/
+.LOGO{
+  position:fixed;
+  background-image: url(ENSEA.png);
+  left:calc( var(--Navheight) * 0.8 );
+  height: var(--Navheight);
+  width:var(--Navheight);
+  background-size: cover;
+  z-index: 9999;
+}
+
+.Nav{
+  outline: 3px solid var(--NavColor); /* Exemple de bordure */
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+}
+.ulcache{
+
+}
+.Nav .liMenuTel{
+ width:0px;
+}
+
+/* Tel-Tab */ 
+@media (max-width: 1000px ){
+  /* Menu */
+  .Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100%;
+    background:none;
+    z-index: 999;
+  }
+
+  /* Nav */
+  .Nav { 
+    position:fixed;
+    width:100%;
+    height:var(--Navheight);
+    top:0;
+    background: var(--NavBg);
+    align-items: stretch;
+    z-index: 1000;
+  }
+  .Nav ul{height:100%}
+  .Nav li{
+    display: inline-block;
+    padding:0 1em 0 1em;
+    position:relative;
+    height:100%;
+  }
+
+  /* MenuTel */
+  .liMenuTel{ /* Debug Nul */
+    color: blue;
+    background:blue;
+    position: fixed;
+    left:-100%;
+  }
+  .MenuTel{ /*  .Nav input[type=checkbox].TelMenu*/
+    display:none;
+  }
+  .MenuTel, label.MenuTel{
+    font-size: 1em;
+    font-weight: 800;
+    background:none;/*var(--NavBg)*/
+    color:var(--NavColor);
+    display:flex;
+    position: fixed;
+    top: 0;
+    /*right: 0;*/
+    left:calc( var(--Navheight) * 2.5);
+    height:var(--Navheight);
+    width:calc(100% - var(--Navheight)*2.5);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    z-index: 999;
+  }
+  /*
+  .MenuTel:hover, input[type="checkbox"]:checked  label, input[type="checkbox"]:checked  .MenuTel {
+    background:green !important;
+    color:var(--NavColor);
+    text-decoration: none;
+  }
+  /**/
+
+  /* Menu */
+  .ulMenu{
+    display: none;
+    height: var(--Nvaheight);
+  }
+  .liMenuTel:hover .ulMenu, input[type=checkbox]:checked.MenuInput + .ulMenu{  /* .liMenuTel:hover */
+    position: fixed;
+    display:inline;
+    top:var(--Navheight);
+    right:0;
+    height:var(--Navheight);
+    width:100%;
+    z-index: 999;
+  }
+  .ulMenu .liMenu{
+    font-size: 1em;
+    font-weight: 800;
+    display:block;
+    position:relative;
+    background:var(--NavBgMenu);
+    color:var(--NavColor);
+    border: 1px solid black;
+  }
+  .ulMenu .liMenu:hover, .ulMenu .liMenu.Active{
+    cursor: pointer; 
+    background:var(--NavBg);
+    color:var(--NavColor);
+    border-bottom: 4px solid var(--NavColor);
+    
+  }
+
+  /* Il n'y a pas de sub_menu dans le HTML */
+  /* .sub_menu */
+  .ulSubMenu{
+    display:none; /*display:block;*/
+  }
+  .liMenu:hover .ulSubMenu{ /* .liMenu:hover  */
+    position:fixed;
+    display:inline;
+    height:var(--Navheight);
+    width:50%;
+    left:0;
+  }
+  .ulSubMenu .liSubMenu{ /* .Nav .liMenu .sub_menu li */
+    display:block;
+    background:purple;
+  }
+  .ulSubMenu .liSubMenu:hover{ 
+    display:block;
+    background:pink;
+  }
+}
+
+/* PC-Tab */ 
+@media (min-width: 1001px ){
+  .Nav input.MenuInput{
+    display: none;
+  }
+  /* Menu */
+  .Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100%;
+  }
+
+  /* Nav */
+  .Nav { 
+    position:fixed;
+    width:100%;
+    height:var(--Navheight);
+    top:0;
+    background: var(--NavBg);
+    align-items: stretch;
+    z-index: 999;
+  }
+  .Nav li{
+    display: inline-block;
+    padding:0 1em 0 1em;
+    position:relative;
+    height:100%;
+  }
+
+  /* MenuTel */
+  .MenuTel{
+    display:none;
+    height: var(--Nvaheight);
+  }
+
+  .ulMenu{
+    display:inline-block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width:calc( 100% - var(--Navheight)*2.5); /* Ca*/
+    height: var(--Nvaheight);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*background:lightgray;*/
+  }
+  .ulMenu .liMenu{
+    height:var(--Navheight);
+    font-size: 1em;
+    font-weight: 700;
+    background:none;;
+    color:var(--NavColor);
+  }
+  .ulMenu .liMenu:hover{
+    cursor: pointer; 
+    height:var(--Navheight);
+    font-weight: 1000;
+    background:var(--NavBg);
+
+    /*outline-bottom: 20px solid var(--NavColor); /* Exemple de bordure */
+    border-bottom: 5px solid var(--NavColor);
+  }
+
+  /*Toujours pas de sub_menu dans le HTML */
+  /* .sub_menu */
+  .ulSubMenu{
+    display:none; /*display:block;*/
+  }
+  .liMenu:hover .ulSubMenu{
+    display:block;
+    left:0;
+    position:absolute;
+    width:100%;
+  }
+  .ulSubMenu .liSubMenu{ /* .Nav .liMenu .sub_menu li */
+    display:block;
+    background:purple;
+  }
+  .ulSubMenu .liSubMenu:hover{ 
+    display:block;
+    background:pink;
+  }
+}

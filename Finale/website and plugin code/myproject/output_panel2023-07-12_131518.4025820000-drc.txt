@@ -1,0 +1,10 @@
+** Drc report for /tmp/tmpxzei5p_p/output_panel2023-07-12_131518.4025820000.kicad_pcb **
+** Created on 2023-07-12 15:15:19 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

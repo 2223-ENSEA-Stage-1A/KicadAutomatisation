@@ -1,0 +1,18 @@
+<!-- gerber_success.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gerber Success</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/gerber_success.css' %}">
+  {% include 'header.html' %}
+</head>
+<body>
+  <div class="container">
+    <h1>Gerber File Upload Successful</h1>
+    <p>Your Gerber file has been successfully uploaded.</p>
+    <a class="button" href="/user-files/">View User Files</a>
+  </div>
+</body>
+</html>

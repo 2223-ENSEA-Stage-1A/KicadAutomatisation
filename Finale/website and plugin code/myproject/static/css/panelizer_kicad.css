@@ -1,0 +1,208 @@
+
+
+
+/* Add styles for the amount selector */
+.amount-selector {
+  display: flex;
+  align-items: center;
+  margin-right: 20px
+}
+
+.amount-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.amount-input {
+  padding: 8px;
+  width: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #333333;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.amount-input:focus {
+  outline: none;
+  background-color: #e0e0e0;
+}
+
+/* Updated CSS code */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background color and font styles */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the content */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.file-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-item-not-valid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-details {
+  flex: 1;
+}
+
+.file-name-valid {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.file-name-not-valid {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: gray;
+}
+
+.file-description {
+  margin-bottom: 6px;
+}
+
+.file-date {
+  color: #888888;
+  font-size: 12px;
+}
+
+.file-button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.file-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #ff5722;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #f44336;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.not-selected {
+  background-color: #f2f2f2;
+  color: #888888;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+.file-checkbox {
+  margin-right: 10px;
+}
+
+.checkbox-text {
+  margin-right: 10px;
+}
+
+.panel-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.panel-info {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.panel-subinfo {
+  font-weight: normal;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.panel-input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.panel-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.panel-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 480px) {
+  .file-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .file-button {
+    margin-top: 10px;
+  }
+}

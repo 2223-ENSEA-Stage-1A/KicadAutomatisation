@@ -1,0 +1,34 @@
+{% extends 'header.html' %}
+{% block content %}
+
+
+{% comment %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+</head>
+<body>
+{% endcomment %}
+
+<title>Login</title>
+  <div class="content">
+    {% if user.is_authenticated %}
+      <h2>Already Logged In</h2>
+      <p>You are already logged in as {{ user.username }}.</p>
+      <p><a class="btn_myfile" href="{% url 'logout' %}">Logout</a></p>
+    {% else %}
+      <h2 class="TextMilieu">Login</h2>
+      <a href="{% url 'cas_ng_login' %}" class="btn_myfile">CAS Login</a>
+    {% endif %}
+  </div>
+
+  <!-- Additional scripts or footer content -->
+
+{% comment %}
+</body>
+</html>
+{% endcomment %}
+
+{% endblock%}

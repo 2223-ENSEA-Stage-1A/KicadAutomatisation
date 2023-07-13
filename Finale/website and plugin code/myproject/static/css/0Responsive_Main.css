@@ -1,0 +1,395 @@
+:root {
+    --page-mp-x-PC: 17rem;
+    --page-mp-y-PC: 2rem;
+    --page-mp-x-Tab: 4rem;
+    --page-mp-y-Tab: 1rem;
+    --page-mp-x-Tel: 0.5rem;
+    --page-mp-y-Tel: 0.2rem;
+   
+    --container-p:1rem;
+    --container-radius: 1rem;
+
+    --btn-myfile-m: 0.5rem;
+    --btn-delete-m: 2rem;
+    --btn-myfile-p: 1rem;
+
+    --color-0: #fff; /* background and info */
+    --color-1: #eec6d1;
+    --color-2: #c40452; /* button */
+    --color-3: #a40442; /* hover button */
+    --color-4: #dc7c9c;
+    --color-staff: blue; /* staff button */
+    --color-staff-hover: darkblue; /* staff button */
+
+    /* danger / delete */
+    --color-danger: #af0601;
+    --color-danger-hover: red;
+
+    --color-button-text: #fff;
+
+   --BgTab: #fff;/*rgba(255,255,200,1);*/
+   --BgPC: #fff;/*rgba(200,200,255,1);*/
+  }
+
+*,
+*::before,
+*::after {
+box-sizing: border-box; /*Prend en compte les bordure pour la taille de la box*/
+}
+
+
+p{
+    margin-bottom: 1rem;
+}
+main{
+    z-index: 9999;
+}
+.Text{
+    padding:2em;
+    font-weight: bold;
+    font-size: 1.2em; 
+    width:100%;
+    display: flex; /* Utilise un modèle de boîte flexible */
+    align-items: center; /* Centre verticalement le contenu */
+    justify-content: center; /* Centre horizontalement le contenu */
+}
+.page-mp{
+    padding: var(--page-mp-y-Tel) var(--page-mp-x-Tel) var(--page-mp-y-Tel) var(--page-mp-x-Tel)!important; 
+    background: var(--color-green);
+    margin:5em 0 0 0;
+}
+.ENSEA,.ENSEA:hover {
+    background: var(--color-2);
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    padding:0.25em;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+}
+.borderless_container, main, body, header{
+    padding:0;
+    margin:0;
+}
+.TextMilieu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_50, .container_100, .container_file, .container_mp0, .container_info, .container_Param_Projet{
+    border-radius: var(--container-radius) !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin:var(--container-p);
+    padding: var(--container-p);
+}
+.container_file {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.container_info{
+    padding:0.5em;
+    margin-top:0.2em;
+    margin-bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: initial; /**/
+}
+.container_info p {
+    margin:0;
+    padding:0;
+}
+
+.container_mp0{
+    
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+.container_Param_Projet{
+    margin:0;
+    padding:1em;
+    
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.container_centre {
+    display: flex;
+    justify-content: center;
+  }
+.container_50{
+    margin:0;
+    padding:1em;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.container_100{
+    margin:0;
+    padding:1em;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.btn_myfile, .btn_staff,.btn_delete, .box_checkbox, .btn_myfile_Color, .btn_delete_panels{
+    cursor: pointer; 
+    text-decoration: none;
+    color: var(--color-button-text);
+    background-color: var(--color-2) ;
+    text-align: center !important;
+    border: var(--btn-myfile-m) solid var(--color-1) ; /*var(--color-1) */
+    padding: var(--btn-myfile-p);
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    -webkit-box-flex: 0;
+
+    border-radius:1em;
+    font-size:1em;
+
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+}
+.btn_myfile, .btn_delete, .box_checkbox, .btn_staff{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.btn_myfile:hover, .btn_myfile_Color:hover{
+    text-decoration: none;
+    color: var(--color-button-text);
+    background:  var(--color-3);/* var(--color-3)*/
+}
+.btn_staff{
+    background: var(--color-staff);
+    color: var(--color-button-text);
+}
+.btn_staff:hover{
+    text-decoration: none;
+    background: var(--color-staff-hover);
+}
+.btn_delete{
+    background: var(--color-danger);
+    color: var(--color-button-text) !important ;
+    margin-left: auto !important;
+    max-width: 23%;
+}
+.btn_delete:hover{
+    text-decoration: none;
+    background: var(--color-danger-hover);
+}
+.page-mp
+.box_checkbox {
+    color: black;
+    background: none;
+  }
+.container_amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 20%;
+    max-width: 40%;
+}
+
+
+
+
+/*List of all Panels*/
+.title_file{
+    display: flex;margin:0;padding:0;width:100%;
+}
+.title_middle{
+    /*background:red;*/
+    flex: 0 0 60%;max-width: 60%;
+    display: flex; align-items: center;justify-content: center;
+}
+.title_side{
+    /*background:green;*/
+    flex: 0 0 20%;max-width: 20%;
+}
+.title_right{
+    /*background:green;*/
+    flex: 0 0 20%;max-width: 20%;
+}
+.title_left{
+    /*background:green;*/
+    flex: 0 0 20%;max-width: 20%;
+}
+.title{
+    font-size:2em;padding:0;margin:0;font-weight: bold;
+}
+.btn_delete_panels{
+    border:0;
+    background: var(--color-danger);
+    color: var(--color-button-text) !important ;
+    margin-left: auto !important;
+    width:100%;
+    margin-left: auto !important;
+}
+.btn_delete_panels:hover{
+    text-decoration: none;
+    background: var(--color-danger-hover);
+}
+/* file */
+.info_file{
+    display: flex;
+    flex-wrap:wrap;
+    margin:0;padding:0;
+    width:100%;
+}
+.info_side{
+    flex: 0 0 100%;max-width: 100%;  
+}
+.info_color{
+    background: var(--color-0);
+    border-radius:1em;
+    margin:1em;padding:1em;
+}
+.btn_apply{
+    margin:1em; padding:1em;
+    background-color: var(--color-2) ;
+    border-radius:1em;
+    color: white;
+    border:none;
+}
+.btn_apply:hover{
+    background-color: var(--color-3) ;
+}
+
+
+
+@media (min-width: 700px ) { /* Tab */
+    .page-mp{
+        background: var(--BgTab);
+        padding: var(--page-mp-y-Tab)  var(--page-mp-x-Tab) var(--page-mp-y-Tab)  var(--page-mp-x-Tab) !important; 
+    }
+    .btn_myfile, .btn_delete, .box_checkbox, .container_amount, .btn_staff {
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .btn_delete{
+        max-width: 16.77%;
+    }
+    .container_Param_Projet{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .info_side{
+        flex: 0 0 50%;max-width: 50%;  
+    }
+}
+
+@media (min-width: 1500px ) { /* PC */
+    .page-mp{
+        background: var(--BgPC);
+        padding: var(--page-mp-y-PC) var(--page-mp-x-PC) var(--page-mp-y-PC) var(--page-mp-x-PC)!important; 
+    }
+    .btn_myfile, .btn_delete, .box_checkbox, .container_amount, .btn_staff {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .btn_delete{
+        max-width: 10%;
+    }
+    .container_Param_Projet{
+        -ms-flex: 0 0 33.3%;
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
+    .btn_delete_panels{
+        width: 50%;
+    }
+}
+
+
+
+.align-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.bg-0{ background: var(--color-0);}
+.bg-1{ background: var(--color-1);}
+.bg-2{ background: var(--color-2);}
+.bg-3{ background: var(--color-3);}
+.bg-4{ background: var(--color-4);}
+.bg-staff{ background: var(--color-staff);}
+
+
+.formatform form {
+    padding: 20px;
+    margin:10px;
+}
+.formatform  form p {
+    margin:10px;
+    width:100%;
+}
+.formatform  label {
+    display: block;
+    margin: 10px;
+}
+
+.formatform  input[type="text"], textarea {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin:10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+.input_white input[type="number"],.panel-input{
+    background-color: white;
+    color: black;
+    padding: 0.4em;
+    margin:0.8em;
+    border: 1px solid black;
+    border-radius: 0.4em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+    min-width:5em;
+}
+.checkmargin{
+    margin:0.2em;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border_description{
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    margin:10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.bigwidth{
+    width:50em;
+    padding:1em 4em 1em 4em;
+    border:none;
+}

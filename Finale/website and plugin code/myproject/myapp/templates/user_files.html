@@ -1,0 +1,192 @@
+{% extends 'header.html' %}
+{% block content %}
+
+<title>User Files</title>
+
+{% if user.is_staff %}
+<form class="" method="POST" action="{% url 'user_files' %}">
+  {% csrf_token %}
+  <label class="" for="view_all_project">View All Projects</label>
+  <input type="checkbox" id="view_all_project" name="view_all_project" {% if view_all_project %}checked="checked"{% endif %}>
+  <input type="hidden" name="view_valid" value="{{ view_valid }}">
+  <button class="btn_apply" type="submit">Apply</button>
+</form>
+{% endif %}
+<form class="" method="POST" action="{% url 'user_files' %}">
+  {% csrf_token %}
+  <label class="" for="view_valid">View Valid</label>
+  <input type="checkbox" id="view_valid" name="view_valid" {% if view_valid %}checked="checked"{% endif %}>
+  <input type="hidden" name="view_all_project" value="{{ view_all_project }}">
+  <button class="btn_apply" type="submit">Apply</button>
+</form>
+
+
+
+{% if user.is_staff %}
+  <h1 class="TextMilieu">List of the Projets</h1>
+{% else %}
+  <h1 class="TextMilieu">List of your Projets</h1>
+{% endif %}
+
+<div class="container_mp0 description">
+  <div class="border_description">
+    <p> Menu to edit your Project and Send it to Production </p>
+  </div>
+</div>
+
+{% csrf_token %}
+{% if files%}
+<ul class="file-list">
+  {% for file in files  %}
+
+    <li class="container_file bg-1">
+
+      <div class="title_file">
+        <div class="title_side">
+        </div>
+        <div class="title_middle">
+          <p class="title">{{ file.upload_file.filename}}</p>
+        </div>
+        <div class="title_side">
+          {% if not file.upload_file.locked or user.is_staff%}
+            <button class="delete-button btn_delete_panels" data-file-type="result_file" data-file-id="{{ file.upload_file.id }}">Delete</button>
+          {%endif%}
+        </div>       
+      </div>
+
+      <div class="info_file">
+        <div class="info_side">
+          <div class="info_color">
+            <p class="">{{ file.upload_file.description }}</p> {# file-description #}
+          </div>
+        </div>
+        <div class="info_side">
+          <div class="info_color">
+            <p class="">{{ file.upload_file.uploaded_at }}</p> {# file-date #}
+            <p class="">Is File Valid : {{ file.upload_file.valid }}</p>
+            {% if file.upload_file.isInProduction %}
+                <p class="file-valid">Production Step : {{ file.upload_file.productionStep }}</p>
+            {% else %}
+                <p class="file-valid">Is in Production : {{ file.upload_file.isInProduction }}</p>
+            {% endif %}
+          </div>    
+        </div>    
+    </div>
+
+
+      {%comment%}
+      <div class="container_info bg-4">
+        <p class="">{{ file.upload_file.description }}</p> {# file-description #}
+      </div>
+      <div class="container_info bg-4">
+        <p class="">{{ file.upload_file.uploaded_at }}</p> {# file-date #}
+      </div> 
+      <div class="container_info bg-4">
+        <a class="">Is File Valid : {{ file.upload_file.valid }}</a>
+      </div> 
+      <div class="container_info bg-4">
+        {% if file.upload_file.isInProduction %}
+            <a class="file-valid">Is in Production Step : {{ file.upload_file.productionStep }}</a>
+        {% else %}
+            <a class="file-valid">Is in Production Step : {{ file.upload_file.isInProduction }}</a>
+        {% endif %}
+      </div>
+      {%endcomment%}
+
+      <div class="container_mp0">
+        {% if file.upload_file.valid %}
+          {% if file.upload_file.amount != 0 %}
+            <a href="{% url 'remove_project_prod' project_id=file.upload_file.id %}" class="btn_myfile">Remove one from Prod</a>
+          {% endif %}
+              <a href="{% url 'send_project_prod' project_id=file.upload_file.id %}" class="btn_myfile">Send Project to Production : {{ file.upload_file.amount }}</a>
+            </div>
+            <div class="container_mp0">
+              <a href="{% url 'view_file' file_id=file.upload_file.id file_type='zippedGerbers' %}" class="btn_myfile">View zipped Gerbers</a>
+              <a href="{% url 'view_file' file_id=file.upload_file.id file_type='zippedDrills' %}" class="btn_myfile">View zipped Drills</a>
+        {% else %}
+          {%if user.is_staff %}
+            {% if file.upload_file.amount != 0 %}
+              {#<a href="{% url 'remove_project_prod' project_id=file.upload_file.id %}" class="btn_myfile bg-staff">Remove one from Prod</a>#}
+            {% endif %}
+                <a href="{% url 'send_project_prod' project_id=file.upload_file.id %}" class="btn_staff">Send Project to Production : {{ file.upload_file.amount }}</a>
+              </div>
+              <div class="container_mp0">
+                <a href="{% url 'view_file' file_id=file.upload_file.id file_type='zippedGerbers' %}" class="btn_myfile">View zipped Gerbers</a>
+                <a href="{% url 'view_file' file_id=file.upload_file.id file_type='zippedDrills' %}" class="btn_myfile">View zipped Drills</a>
+          {% endif %}
+        {% endif %}
+        <a href="{% url 'view_file' file_id=file.upload_file.id file_type='DRCresult' %}" class="btn_myfile">View DRC Result</a>
+        <a href="{% url 'view_file' file_id=file.upload_file.id file_type='ERCresult' %}" class="btn_myfile">View ERC Result</a>
+        <a href="{% url 'view_file' file_id=file.upload_file.id file_type='uploaded_file' %}" class="btn_myfile">View Kicad Project</a>
+      
+     
+      </div>
+      <div class="container_mp0 align-right">
+        {% if file.ticket %}
+          <a href="{% url 'gerber_edit' file_id=file.upload_file.id ticket_id=file.ticket.id%}" class="btn_myfile ">Edit Project</a>
+          <a href="{% url 'open_ticket' file_id=file.upload_file.id %}"class="btn_myfile ">Open Ticket</a>
+        {% else %}
+          <a href="{% url 'gerber_edit' file_id=file.upload_file.id%}" class="btn_myfile ">Edit Project</a>
+          <a href="{% url 'ticket_create' file_id=file.upload_file.id %}"class="btn_myfile ">Create Ticket</a>
+        {% endif %}
+      </div>
+  </li>
+  {% empty %}
+    <li>No files uploaded yet.</li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No files uploaded yet.</p>
+{% endif %}
+
+
+
+<!-- JavaScript code -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.delete-button').click(function() {
+      var fileId = $(this).data('file-id');
+      var fileType = $(this).data('file-type');
+      if (confirm('Are you sure you want to delete this file?')) {
+        $.ajax({
+          type: 'POST',
+          url: '{% url 'delete_file' %}',
+          data: { file_id: fileId, file_type: fileType, csrfmiddlewaretoken: '{{ csrf_token }}' },
+          success: function(response) {
+            // Handle success response
+            console.log(response);
+            // Refresh the page or update the file list dynamically
+            location.reload();
+          },
+          error: function(xhr, errmsg, err) {
+            // Handle error response
+            console.log(xhr.status + ': ' + xhr.responseText);
+          }
+        });
+      }
+    });
+  });
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.file-checkbox').change(function() {
+      var checkbox = $(this);
+      var checkboxText = checkbox.siblings('.checkbox-text');
+      
+      if (checkbox.is(':checked')) {
+        checkboxText.text('Selected');
+        checkbox.parent().addClass('selected').removeClass('not-selected');
+      } else {
+        checkboxText.text('Unselected');
+        checkbox.parent().addClass('not-selected').removeClass('selected');
+      }
+    });
+  });
+</script>
+
+
+{% endblock%}
